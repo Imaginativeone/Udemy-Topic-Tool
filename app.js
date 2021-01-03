@@ -45,9 +45,50 @@ function processFreeTopics(topics) {
   const flaggedPreviews = updatePreviews(movedTimes);
   // console.log('flaggedPreviews', flaggedPreviews);
 
-  showTopics(flaggedPreviews);
+  // Manual Process - Update preview lines
+
+  // showTopics(flaggedPreviews);
 
   // console.log('Account for Orphaned Lines'); // No time index or video number
+  const flaggedOrphans = updateOrphans(flaggedPreviews);
+  showTopics(flaggedOrphans);
+}
+
+function updateOrphans(topics) {
+
+  // ^((?!hede).)*$
+  // ^((?!([0-9][0-9]:[0-9][0-9])).)*$
+
+  // const ftRegex  = /\n([0-9][0-9]:[0-9][0-9])/g;
+  // const ftRegex = /(^((?!([0-9][0-9]:[0-9][0-9])).)*$)/g
+  // const ftResult = topics.replace(ftRegex, ' $1 ***');
+
+  // console.log(ftResult);
+
+  // return ftResult;
+
+  const topicsArray = topics.split("\n");
+
+  const newArray = topicsArray.map((line) => {
+
+    const pmd = 'Possible Missing Description ';
+    const flg = ' ***';
+
+    const ftRegex  = /([0-9][0-9]:[0-9][0-9])/g;
+    let myResult = ftRegex.test(line);
+
+    if (!myResult) { 
+      console.log(myResult, line) 
+      return line + flg;
+    } else {
+      return line;
+    }
+
+  });
+
+  // return topics;
+  return newArray.join("\n");
+
 }
 
 function updatePreviews(topics) {
@@ -58,7 +99,7 @@ function updatePreviews(topics) {
     const pmd = 'Possible Missing Description ';
     const flg = '***';
     if((line.indexOf('Preview') !== -1) && (line.length <= 15)) {
-      return line = pmd + line + flg;
+      return pmd + line + flg;
     } 
     else {
       return line;
