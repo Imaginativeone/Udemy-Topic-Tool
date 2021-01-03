@@ -1,0 +1,1406 @@
+Section 1: Front-End Web Development 02/10  42min
+
+1. What You'll Get in this Course
+3min
+
+2. Syllabus Download
+1min
+
+3. Bookmark the Course Resources
+1min
+
+4. How to Get the Most Out of the Course 
+9min
+
+5. Download the 12 Rules to Learn to Code eBook
+1min
+
+6. How Does the Internet Actually Work?
+6min
+
+7. How Do Websites Actually Work?
+6min
+
+8. What You'll Need to Get Started - Setup Your Local Web Dev Env
+7min
+
+9. How to Get Help When You're Stuck
+7min
+
+10. Pathfinder
+2min
+
+Section 2: Intro to HTML5 00/09 1hr 19min
+
+11. Introduction to HTML 1min
+
+12. The Anatomy of an HTML Tag 1min
+
+13. What we're building - HTML Personal Site
+3min
+
+14. What is The HTML Boilerplate?
+1min
+
+15. How to Structure Text in HTML
+1min
+
+16. HTML Lists
+5min
+
+17. HTML Image Elements
+8min
+
+18. HTML Links and Anchor Tags
+12min
+
+19. How to Ace this Course
+1min
+
+Section 3: Intermediate HTML 0 / 11  50min
+
+20. HTML Tables
+12min
+
+21. Using HTML Tables for Layout
+2min
+
+22. HTML Tables Code Challenge
+2min
+
+23. How to Type Emojis
+1min
+
+24. HTML Tables Solution Walkthrough
+7min
+
+25. HTML Forms
+9min
+
+26. Forms in Practice - Create a Contact Me Form
+7min
+
+Coding Exercise 1: HTML Challenge  10min
+
+27. Publish Your Website!
+7min
+
+28. Tip from Angela - Habit Building with the Calendar Trick
+3min
+
+29. Get Monthly Tips and Tools to Level Up as a Developer
+1min
+
+Section 4: Introduction to CSS 00/12  1hr 30min
+
+30. Introduction to CSS
+3min
+
+31. Inline CSS
+1min
+
+32. A Quick Note About the Next Lesson 1min
+
+33. Internal CSS
+20min
+
+34. External CSS
+8min
+
+35. How to Debug CSS Code
+14min
+
+36. The Anatomy of CSS Syntax
+13min
+
+37. CSS Selectors
+6min
+
+38. Classes vs. Ids
+12min
+
+Quiz 1: CSS Quiz  10min
+
+39. Tip from Angela - Dealing with Distractions
+2min
+
+40. Join the Student Community
+1min
+
+Section 5: Intermediate CSS 0 / 222hr 55min
+
+41. What We'll Make - Stylised Personal Site
+5min
+
+42. What Are Favicons?
+4min
+
+43. HTML Divs
+14min
+
+44. The Box Model of Website Styling
+19min
+
+45. CSS Display Property
+15min
+
+46. Learn More About Web Design
+1min
+
+47. CSS Static and Relative Positioning
+15min
+
+48. Absolute positioning
+12min
+
+49. The Dark Art of Centering Elements with CSS
+9min
+
+50. Font Styling in Our Personal Site
+14min
+
+51. Learn More About Typography
+1min
+
+52. Adding Content to Our Website
+7min
+
+53. CSS Sizing
+16min
+
+54. Font Properties Challenge 1 - Change the Font Colour
+1min
+
+55. Font Properties Challenge 2 - Change the Font Weight
+1min
+
+56. Font Properties Challenge 3 - Change the Line Height
+1min
+
+57. CSS Font Property Challenge Solutions
+4min
+
+58. CSS Float and Clear
+15min
+
+59. CSS Challenge
+1min
+
+60. Stylised Personal Site Solution Walkthrough
+21min
+
+61. [Optional] Get More Practice HTML and CSS
+1min
+
+62. Tip from Angela - Nothing Easy is Worth Doing!
+4min
+
+Section 6: Introduction to Bootstrap 4 0 / 172hr 35min
+
+63. What is Bootstrap?
+15min
+
+64. Installing Bootstrap
+8min
+
+65. Web Design 101 - Wireframing
+12min
+
+66. The Bootstrap Navigation Bar
+21min
+
+67. What We'll Make: TinDog
+1min
+
+68. Download the Starting Files
+1min
+
+69. Setting Up Our New Project
+8min
+
+70. Bootstrap Grid Layout System
+20min
+
+71. Getting Montserrat Black and other Font Weights
+1min
+
+72. Adding Grid Layouts to Our Website
+10min
+
+73. A Note About CSS Link Order
+1min
+
+74. Bootstrap Containers
+6min
+
+75. Bootstrap Buttons & Font Awesome
+12min
+
+76. Styling Our Website Challenges and Solutions
+20min
+
+77. Bootstrap Challenge 1
+1min
+
+78. Solution to Bootstrap Challenge 1
+17min
+
+79. Tip from Angela - How to Deal with Procrastination
+4min
+
+Section 7: Intermediate Bootstrap 0 / 152hr 35min
+
+80. The Bootstrap Carousel Part 1
+10min
+
+81. The Bootstrap Carousel Part 2
+17min
+
+82. Bootstrap Cards
+17min
+
+83. The CSS Z-Index and Stacking Order
+21min
+
+84. Media Query Breakpoints
+22min
+
+85. Bootstrap Challenge 2
+1min
+
+86. Bootstrap Challenge 2 Solution
+12min
+
+87. How to become a Better Programmer - Code Refactoring
+8min
+
+88. Put it into Practice - Refactor our Website Part 1
+19min
+
+89. Advanced CSS - Combining Selectors
+12min
+
+90. Refactoring our Website Part 2
+5min
+
+91. Advanced CSS - Selector Priority
+6min
+
+92. Completing the Website
+3min
+
+93. Download the Completed Website
+1min
+
+94. Tip from Angela - Building a Programming Habit
+3min
+
+Section 8: Web Design School - Create a Website that People Love 0 / 61hr 6min
+
+95. Introduction to Web Design
+4min
+
+96. Understanding Colour Theory
+9min
+
+97. Understanding Typography and How to Choose a Font
+10min
+
+98. Manage ATTENTION with effective User Interface (UI) Design
+10min
+
+99. User Experience (UX) Design
+14min
+
+100. Web Design in Practice - Let's apply what we've learnt!
+18min
+
+Section 9: Introduction to Javascript ES6 26/30  2hr 28min
+
+101. Introduction to Javascript
+12min
+
+102. Javascript Alerts - Adding Behaviour to Websites
+14min
+
+103. Data Types
+4min
+
+104. Javascript Variables
+10min
+
+105. Javascript Variables Exercise Start
+3min
+
+Coding Exercise 2: Javascript Variables Exercise  10min
+
+106. Javascript Variables Exercise Solution
+3min
+
+107. Naming and Naming Conventions for Javascript Variables
+7min
+
+Quiz 2: Javascript Variable Naming Quiz  10min
+
+108. String Concatenation
+3min
+
+109. String Lengths and Retrieving the Number of Characters
+6min
+
+110. Slicing and Extracting Parts of a String
+9min
+
+111. Challenge: Changing Casing in Text
+4min
+
+112. Challenge: Changing String Casing Solution
+9min
+
+113. Basic Arithmetic and the Modulo Operator in Javascript
+6min
+
+114. Increment and Decrement Expressions
+2min
+
+Quiz 3: Javascript Numbers Quiz  10min
+
+115. Functions Part 1: Creating and Calling Functions
+11min
+
+116. Functions Part 1 Challenge - The Karel Robot
+9min
+
+117. The Karel Chess Board Solution
+1min
+
+118. A Quick Note About the Next Lesson
+1min
+
+119. Functions Part 2: Parameters and Arguments
+10min
+
+Coding Exercise 3: Life in Weeks Coding Exercise  10min
+
+120. Life in Weeks Solution
+4min
+
+121. Functions Part 3: Outputs & Return Values
+11min
+
+122. Challenge: Create a BMI Calculator
+2min
+
+Coding Exercise 4: BMI Calculator Challenge  10min
+
+123. Challenge: BMI Calculator Solution
+6min
+
+Quiz 4: JavaScript Functions Quiz  10min
+
+124. Tip from Angela - Set Your Expectations
+3min
+
+Section 10: Intermediate Javascript 15 / 191hr 30min
+
+125. Random Number Generation in Javascript: Building a Love Calculator
+11min
+
+126. Control Statements: Using If-Else Conditionals & Logic
+5min
+
+127. Comparators and Equality
+3min
+
+128. Combining Comparators
+3min
+
+Coding Exercise 5: BMI Calculator Advanced (IF/ELSE)  10min
+
+129. Introducing the Leap Year Code Challenge
+4min
+
+Coding Exercise 6: Leap Year Challenge Exercise  10min
+
+130. Leap Year Solution
+3min
+
+131. Collections: Working with Javascript Arrays
+9min
+
+132. Adding Elements and Intermediate Array Techniques
+16min
+
+Coding Exercise 7: Who's Buying Lunch? Code Challenge  10min
+
+133. Who's Buying Lunch Solution
+4min
+
+134. Control Statements: While Loops
+8min
+
+135. Solution to the 99 Bottles Challenge
+1min
+
+136. Control Statements: For Loops
+6min
+
+137. Introducing the Fibonacci Code Challenge
+7min
+
+Coding Exercise 8: The Fibonacci Exercise  10min
+
+138. Fibonacci Solution
+8min
+
+139. Tip from Angela - Retrieval is How You Learn
+3min
+
+Section 11: The Document Object Model (DOM) 09/09  56min
+
+140. Adding Javascript to Websites
+11min
+
+141. Introduction to the Document Object Model (DOM)
+12min
+
+142. Solution to the DOM Challenge
+1min
+
+143. Selecting HTML Elements with Javascript
+14min
+
+144. Manipulating and Changing Styles of HTML Elements with Javascript
+5min
+
+145. The Separation of Concerns: Structure vs Style vs Behaviour
+6min
+
+146. Text Manipulation and the Text Content Property
+3min
+
+147. Manipulating HTML Element Attributes
+2min
+
+148. Tip from Angela - The 20 Minute Method
+3min
+
+Section 12: Boss Level Challenge 1 - The Dicee Game 8 / 1120min
+
+149. Challenge: The Dicee Challenge
+2min
+
+150. Dicee Challenge Step 0 - Download the Skeleton Project
+1min
+
+151. Dicee Challenge Step 1 - Create an External Javascript File
+1min
+
+152. Dicee Challenge Step 2 - Add Dice Images
+1min
+
+153. Dicee Challenge Step 3 - Create a Random Number
+1min
+
+154. Dicee Challenge Step 4 - Change the <img> to a Random Dice
+1min
+
+155. Dicee Challenge Step 5 - Change both <img> Elements
+1min
+
+156. Dicee Challenge Step 6 - Change the Title to Display a Winner
+1min
+
+157. The Solution to the Dicee Challenge
+15min
+
+158. Download the Completed Website
+1min
+
+159. Tip from Angela - Learning Before you Eat
+2min
+
+Section 13: Advanced Javascript and DOM Manipulation 0 / 151hr 35min
+
+160. What We'll Make: Drum Kit
+1min
+
+161. Download the Starting Files
+1min
+
+162. Adding Event Listeners to a Button
+14min
+
+163. Higher Order Functions and Passing Functions as Arguments
+13min
+
+164. Higher Order Function Challenge Solution
+1min
+
+165. How to Play Sounds on a Website
+11min
+
+166. A Deeper Understanding of Javascript Objects
+12min
+
+167. How to Use Switch Statements in Javascript
+5min
+
+168. Objects, their Methods and the Dot Notation
+6min
+
+169. A Quick Note About the Next Lesson
+1min
+
+170. Using Keyboard Event Listeners to Check for Key Presses
+8min
+
+171. Understanding Callbacks and How to Respond to Events
+12min
+
+172. Adding Animation to Websites
+9min
+
+173. Download the Completed Website
+1min
+
+174. Tip from Angela - Dealing with Lack of Progress
+3min
+Section 14: jQuery 0 / 1153min
+
+175. What is jQuery?
+4min
+
+176. How to Incorporate jQuery into Websites
+9min
+
+177. How Minification Works to Reduce File Size
+4min
+
+178. Selecting Elements with jQuery
+2min
+
+179. Manipulating Styles with jQuery
+5min
+
+180. Manipulating Text with jQuery
+4min
+
+181. Manipulating Attributes with jQuery
+4min
+
+182. Adding Event Listeners with jQuery
+8min
+
+183. Adding and Removing Elements with jQuery
+3min
+
+184. Website Animations with jQuery
+8min
+
+185. Tip from Angela - Mixing Knowledge
+2min
+
+Section 15: Boss Level Challenge 2 - The Simon Game 0 / 2515min
+
+186. What You'll Make: The Simon Game
+1min
+
+187. Play the Game
+1min
+
+188. Step 0 - Download the Starting Files
+1min
+
+189. Step 1 - Add Javascript and jQuery
+1min
+
+190. Step 1 - Answer
+1min
+
+191. Step 2 - Create A New Pattern
+1min
+
+192. Step 2 - Answer
+1min
+
+193. Step 3 - Show the Sequence to the User with Animations and Sounds
+1min
+
+194. Step 3 - Answer
+1min
+
+195. Step 4 - Check Which Button is Pressed
+1min
+
+196. Step 4 - Answer
+1min
+
+197. Step 5 - Add Sounds to Button Clicks
+1min
+
+198. Step 5 - Answer
+1min
+
+199. Step 6 - Add Animations to User Clicks
+1min
+
+200. Step 6 - Answer
+1min
+
+201. Step 7 - Start the Game
+1min
+
+202. Step 7 - Answer
+1min
+
+203. Step 8 - Check the User's Answer Against the Game Sequence8
+1min
+
+204. Step 8 - Answer
+1min
+
+205. Step 9 - Game Over
+1min
+
+206. Step 9 - Answer
+1min
+
+207. Step 10 - Restart the Game
+1min
+
+208. Step 10 - Answer
+1min
+
+209. Download the Completed Project Code
+1min
+
+210. Tip from Angela - Dealing with Frustration
+3min
+
+Section 16: The Unix Command Line 0 / 635min
+
+211. Installing the Hyper Terminal
+1min
+
+212. Command Line Hyper Setup
+5min
+
+213. Understanding the Command Line. Long Live the Command Line!
+6min
+
+214. Command Line Techniques and Directory Navigation
+10min
+
+215. Creating, Opening, and Removing Files through the Command Line
+9min
+
+216. Tip from Angela - Sleep is My Secret Weapon
+4min
+
+Section 17: Backend Web Development 0 / 18min
+
+217. Backend Web Development Explained
+8min
+
+Section 18: Node.js 0 / 839min
+
+218. What is Node.js?
+6min
+
+219. Install Node.js on Mac
+1min
+
+220. Install Node.js on Windows
+1min
+
+221. The Power of the Command Line and How to Use Node
+6min
+
+222. The Node REPL (Read Evaluation Print Loops)
+3min
+
+223. How to Use the Native Node Modules
+8min
+
+224. The NPM Package Manager and Installing External Node Modules
+14min
+
+225. Tip from Angela - Step Up to the Challenge
+1min
+
+Section 19: Express.js with Node.js 0 / 131hr 14min
+
+226. What is Express?
+3min
+
+227. Creating Our First Server with Express
+11min
+
+228. Handling Requests and Responses: the GET Request
+8min
+
+229. Nodemon Installation
+1min
+
+230. Understanding and Working with Routes
+9min
+
+231. What We'll Make: A Calculator
+2min
+
+232. Calculator Setup Challenge
+1min
+
+233. Calculator Setup: Challenge Solution
+6min
+
+234. Responding to Requests with HTML Files
+8min
+
+235. Processing Post Requests with Body Parser
+14min
+
+236. BMI Routing Challenge
+1min
+
+237. Solution to the BMI Routing Challenge
+6min
+
+238. Tip from Angela - How to Solidify Your Knowledge
+3min
+
+Section 20: APIs - Application Programming Interfaces 0 / 142hr 33min
+
+239. Why Do We Need APIs?
+9min
+
+240. API Endpoints, Paths and Parameters.
+11min
+
+241. API Authentication and Postman
+12min
+
+242. What is JSON?
+5min
+
+243. Making GET Requests with the Node HTTPS Module
+13min
+
+244. How to Parse JSON
+13min
+
+245. Using Express to Render a Website with Live API Data
+8min
+
+246. Using Body Parser to Parse POST Requests to the Server
+10min
+
+247. The Mailchimp API - What You'll Make
+3min
+
+248. Setting Up the Sign Up Page
+21min
+
+249. Posting Data to Mailchimp's Servers via their API
+19min
+
+250. Adding Success and Failure Pages
+9min
+
+251. Deploying Your Server with Heroku
+19min
+
+252. Tip from Angela - Location, Location, Location!
+2min
+
+Section 21: Git, Github and Version Control 0 / 101hr 25min
+
+253. Introduction to Version Control and Git
+3min
+
+254. Version Control Using Git and the Command Line
+15min
+
+255. GitHub and Remote Repositories
+11min
+
+256. GitHub Private Repos are now Free! ?
+1min
+
+257. Gitignore
+12min
+
+258. Cloning
+5min
+
+259. Branching and Merging
+17min
+
+260. Optional Git Challenge
+1min
+
+261. Forking and Pull Requests
+17min
+
+262. Tip from Angela - Spaced Repetition
+4min
+
+Section 22: EJS 0 / 112hr 9min
+
+263. What We'll Make: A ToDoList
+1min
+
+264. Linter Errors with EJS
+1min
+
+265. Templates? Why Do We Need Templates?
+15min
+
+266. Creating Your First EJS Templates
+18min
+
+267. Running Code Inside the EJS Template
+7min
+
+268. Passing Data from Your Webpage to Your Server
+25min
+
+269. The Concept of Scope in the Context of Javascript
+9min
+
+270. Adding Pre-Made CSS Stylesheets to Your Website
+16min
+
+271. Understanding Templating vs. Layouts
+14min
+
+272. Understanding Node Module Exports: How to Pass Functions and Data between Files
+22min
+
+273. Tip from Angela - Use Accountability in your Favour  3min
+
+Section 23: Boss Level Challenge 3 - Blog Website 0 / 452hr 38min
+
+274. A New Challenge Format and What We'll Make: A Blog
+6min
+
+275. Setting Up the Blog Project
+7min
+
+276. Challenge 1
+4min
+
+277. Challenge 1 Solution
+3min
+
+278. Challenge 2
+4min
+
+279. Challenge 2 Solution
+2min
+
+280. Challenge 3
+3min
+
+281. Challenge 3 Solution
+3min
+
+282. Challenge 4
+2min
+
+283. Challenge 4 Solution
+2min
+
+284. Challenge 5
+3min
+
+285. Challenge 5 Solution
+4min
+
+286. Challenge 6
+1min
+
+287. Challenge 6 Solution
+1min
+
+288. Challenge 7
+1min
+
+289. Challenge 7 Solution
+2min
+
+290. Challenge 8
+3min
+
+291. Challenge 8 Solution
+4min
+
+292. Challenge 9
+5min
+
+293. Challenge 9 Solution
+7min
+
+294. Challenge 10
+2min
+
+295. Challenge 10 Solution
+3min
+
+296. Challenge 11
+3min
+
+297. Challenge 11 Solution
+3min
+
+298. Challenge 12
+2min
+
+299. Challenge 12 Solution
+3min
+
+300. Challenge 13
+3min
+
+301. Challenge 13 Solution
+4min
+
+302. Challenge 14 and Solution
+6min
+
+303. Challenge 15
+2min
+
+304. Challenge 15 Solution
+3min
+
+305. Express Routing Parameters
+7min
+
+306. Challenge 16
+2min
+
+307. Challenge 16 Solution
+3min
+
+308. Challenge 17
+4min
+
+309. Challenge 17 Solution
+6min
+
+310. Challenge 18
+6min
+
+311. Challenge 18 Solution
+4min
+
+312. Challenge 19
+3min
+
+313. Challenge 19 Solution
+5min
+
+314. Challenge 20
+3min
+
+315. Challenge 20 Solution
+3min
+
+316. Challenge 21
+2min
+
+317. Challenge 21 Solution
+4min
+
+318. Tip from Angela - When Life Gives You Lemons
+6min
+
+Section 24: Databases 0 / 120min
+
+319. Databases Explained: SQL vs. NOSQL
+20min
+
+Section 25: SQL 0 / 636min
+
+320. SQL Commands: CREATE Table and INSERT Data
+14min
+
+321. SQL Commands: READ, SELECT, and WHERE
+3min
+
+322. Updating Single Values and Adding Columns in SQL
+5min
+
+323. SQL Commands: DELETE
+2min
+
+324. Understanding SQL Relationships, Foreign Keys and Inner Joins
+11min
+
+325. Tip from Angela - Find All the Hard Working People
+2min
+
+Section 26: MongoDB 0 / 101hr 12min
+
+326. Installing MongoDB on Mac
+13min
+
+327. Installing MongoDB on Windows
+9min
+
+328. MongoDB CRUD Operations in the Shell: Create
+10min
+
+329. MongoDB CRUD Operations in the Shell: Reading & Queries
+6min
+
+330. MongoDB CRUD Operations in the Shell: Update
+4min
+
+331. MongoDB CRUD Operations in the Shell: Delete
+2min
+
+332. Relationships in MongoDB
+6min
+
+333. Working with The Native MongoDB Driver
+19min
+
+334. If You Have Forgotten to Quit the Mongod Server
+1min
+
+335. Tip from Angela - Daily Routines
+3min
+
+Section 27: Mongoose 0 / 656min
+
+336. Introduction to Mongoose
+20min
+
+337. Reading from Your Database with Mongoose
+7min
+
+338. Data Validation with Mongoose
+8min
+
+339. Updating and Deleting Data Using Mongoose
+10min
+
+340. Establishing Relationships and Embedding Documents using Mongoose
+7min
+
+341. Tip from Angela - Deep Work
+3min
+
+Section 28: Putting Everything Together 0 / 81hr 34min
+
+342. Let's take the ToDoList Project to the Next Level and Connect it with Mongoose
+17min
+
+343. Rendering Database Items in the ToDoList App
+13min
+
+344. Adding New Items to our ToDoList Database
+4min
+
+345. Deleting Items from our ToDoList Database
+14min
+
+346. Creating Custom Lists using Express Route Parameters
+16min
+
+347. Adding New Items to the Custom ToDo Lists
+8min
+
+348. Revisiting Lodash and Deleting Items from Custom ToDo Lists
+19min
+
+349. Tip from Angela - One Step at a Time
+3min
+
+Section 29: Deploying Your Web Application 0 / 433min
+
+350. How to Deploy Web Apps with a Database
+5min
+
+351. How to Setup MongoDB Atlas
+14min
+
+352. Deploying an App with a Database to Heroku
+12min
+
+353. Tip from Angela - Discipline Breeds Discipline
+2min
+
+Section 30: Boss Level Challenge 4 - Blog Website Upgrade 0 / 810min
+
+354. Challenge: Give your Blog a Database
+3min
+
+355. Step 0 - Download the Starting Files
+1min
+
+356. Step 1 - Save Composed Posts with MongoDB
+1min
+
+357. Step 2 - Get the Home Page to Render the Posts
+1min
+
+358. Step 3 - Fix the bug
+1min
+
+359. Step 4 - Render the correct blog post based on post _id
+1min
+
+360. Completed Blog with Database Solution
+1min
+
+361. Tip from Angela - Dealing with Limitations
+5min
+
+Section 31: Build Your Own RESTful API From Scratch 0 / 141hr 46min
+
+362. What is REST?
+17min
+
+363. Creating a Database with Robo 3T
+9min
+
+364. Set Up Server Challenge
+2min
+
+365. Set Up Server Solution
+8min
+
+366. GET All Articles
+7min
+
+367. POST a New Article
+13min
+
+368. DELTE All Articles
+5min
+
+369. Chained Route Handlers Using Express
+7min
+
+370. GET a Specific Article
+14min
+
+371. PUT a Specific Article
+11min
+
+372. PATCH a Specific Article
+7min
+
+373. DELETE a Specific Article
+4min
+
+374. Download the Completed Project Code
+1min
+
+375. Tip from Angela - How to Get a Job as Programmer
+2min
+
+Section 32: Authentication & Security 1 / 153hr 33min
+
+376. Introduction to Authentication
+6min
+
+377. Getting Set Up
+7min
+
+378. Level 1 - Register Users with Username and Password
+15min
+
+379. How to Review the Source Code
+1min
+
+380. Level 2 - Database Encryption
+17min
+
+381. Using Environment Variables to Keep Secrets Safe
+18min
+
+382. Level 3 - Hashing Passwords
+15min
+
+383. Hacking 101 ☣️
+12min
+
+384. Level 4 - Salting and Hashing Passwords with bcrypt
+21min
+
+385. What are Cookies and Sessions?
+8min
+
+386. Using Passport.js to Add Cookies and Sessions
+30min
+
+387. Level 6 - OAuth 2.0 & How to Implement Sign In with Google
+48min
+
+388. Finishing Up the App - Letting Users Submit Secrets
+14min
+
+389. Download the Completed Project Code
+1min
+
+390. Tip from Angela - How to Work as a Freelancer
+2min
+
+Section 33: React.js 6 / 458hr 54min
+
+391. What is React?
+7min
+
+392. What we will make in this React module
+2min
+
+393. Introduction to Code Sandbox and the Structure of the Module
+6min
+
+394. Introduction to JSX and Babel
+16min
+
+395. JSX Code Practice
+8min
+
+396. Javascript Expressions in JSX & ES6 Template Literals
+12min
+
+397. Javascript Expressions in JSX Practice
+9min
+
+398. JSX Attributes & Styling React Elements
+17min
+
+399. Inline Styling for React Elements
+9min
+
+400. React Styling Practice
+10min
+
+401. React Components
+16min
+
+402. React Components Practice
+5min
+
+403. Javascript ES6 - Import, Export and Modules
+11min
+
+404. Javascript ES6 Import, Export and Modules Practice
+4min
+
+405. [Windows]​ Local Environment Setup for React Development
+14min
+
+406. [Mac] Local Environment Setup for React Development​
+14min
+
+407. Keeper App Project - Part 1 Challenge
+5min
+
+408. Keeper App Part 1 Solution
+14min
+
+409. React Props
+17min
+
+410. React Props Practice
+13min
+
+411. React DevTools
+17min
+
+412. Mapping Data to Components
+10min
+
+413. Mapping Data to Components​ Practice
+18min
+
+414. Javascript ES6 Map/Filter/Reduce
+20min
+
+415. Javascript ES6 Arrow functions
+10min
+
+416. Keeper App Project - Part 2
+10min
+
+417. React Conditional Rendering with the Ternary Operator & AND Operator
+19min
+
+418. Conditional Rendering Practice
+7min
+
+419. State in React - Declarative vs. Imperative Programming
+10min
+
+420. React Hooks - useState
+18min
+
+421. useState Hook Practice
+7min
+
+422. Javascript ES6 Object & Array Destructuring
+18min
+
+423. Javascript ​ES6 Destructuring Challenge Solution
+6min
+
+424. Event Handling in React
+11min
+
+425. React Forms
+14min
+
+426. Class Components vs. Functional Components
+6min
+
+427. Changing Complex State
+20min
+
+428. Changing Complex State Practice
+7min
+
+429. Javascript ES6 Spread Operator
+11min
+
+430. Javascript ES6 Spread Operator Practice
+12min
+
+431. Managing a Component Tree
+23min
+
+432. Managing a Component Tree Practice
+8min
+
+433. Keeper App Project - Part 3
+25min
+
+434. React Dependencies & Styling the Keeper App
+17min
+
+435. Tip from Angela - How to Build Your Own Product
+2min
+
+Section 34: Bonus Module: Ask Angela Anything 0 / 42hr 44min
+
+436. AAA 1 - How to Soak in Programming Concepts and more...
+40min
+
+437. AAA 2 - Schedule for Learning to Code and more...
+39min
+
+438. AAA 3 - How to Start Freelancing and more...
+25min
+
+439. AAA 4 - The Live AMA 1hr  60min
+
+Section 35: Next Steps 0 / 1  1min
+
+440. Vote for the Next Module!  1min

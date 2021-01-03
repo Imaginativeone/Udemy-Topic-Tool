@@ -1,0 +1,892 @@
+Course content 35 sections • 440 lectures • 55h 5m total length : 55:05:00
+What You'll Get in this Course
+03:09
+Syllabus Download
+00:11
+Bookmark the Course Resources
+00:16
+How to Get the Most Out of the Course
+09:33
+Download the 12 Rules to Learn to Code eBook
+00:41
+How Does the Internet Actually Work?
+05:42
+How Do Websites Actually Work?
+06:20
+What You'll Need to Get Started - Setup Your Local Web Dev Env
+06:59
+How to Get Help When You're Stuck
+06:39
+Pathfinder
+02:05
+Introduction to HTML
+10:51
+The Anatomy of an HTML Tag
+10:55
+What we're building - HTML Personal Site
+02:52
+What is The HTML Boilerplate?
+17:01
+How to Structure Text in HTML
+11:00
+HTML Lists
+05:24
+HTML Image Elements
+07:32
+HTML Links and Anchor Tags
+11:55
+How to Ace this Course
+01:24
+HTML Tables
+11:57
+Using HTML Tables for Layout
+02:17
+HTML Tables Code Challenge
+01:44
+How to Type Emojis
+01:02
+HTML Tables Solution Walkthrough
+06:42
+HTML Forms
+09:09
+Forms in Practice - Create a Contact Me Form
+07:27
+HTML Challenge 1 question 00:00 
+Publish Your Website!
+06:44
+Tip from Angela - Habit Building with the Calendar Trick
+02:52
+Get Monthly Tips and Tools to Level Up as a Developer
+00:35
+Introduction to CSS
+03:04
+Inline CSS
+09:56
+A Quick Note About the Next Lesson - A 00:12
+Internal CSS
+20:22
+External CSS
+08:29
+How to Debug CSS Code
+13:37
+The Anatomy of CSS Syntax
+13:08
+CSS Selectors
+06:23
+Classes vs. Ids
+11:44
+CSS Quiz 6 questions 00:00
+Tip from Angela - Dealing with Distractions
+02:28
+Join the Student Community
+00:19
+What We'll Make - Stylised Personal Site
+04:57
+What Are Favicons?
+03:47
+HTML Divs
+13:33
+The Box Model of Website Styling
+19:25
+CSS Display Property
+15:11
+Learn More About Web Design
+00:10
+CSS Static and Relative Positioning
+14:36
+Absolute positioning
+12:12
+The Dark Art of Centering Elements with CSS
+09:03
+Font Styling in Our Personal Site
+13:59
+Learn More About Typography
+00:10
+Adding Content to Our Website
+06:52
+CSS Sizing
+15:39
+Font Properties Challenge 1 - Change the Font Colour
+00:09
+Font Properties Challenge 2 - Change the Font Weight
+00:02
+Font Properties Challenge 3 - Change the Line Height
+00:02
+CSS Font Property Challenge Solutions
+03:57
+CSS Float and Clear
+15:13
+CSS Challenge
+00:23
+Stylised Personal Site Solution Walkthrough
+21:22
+[Optional] Get More Practice HTML and CSS
+00:16
+Tip from Angela - Nothing Easy is Worth Doing!
+03:35
+What is Bootstrap?
+14:36
+Installing Bootstrap
+07:55
+Web Design 101 - Wireframing
+11:38
+The Bootstrap Navigation Bar
+20:40
+What We'll Make: TinDog
+00:56
+Download the Starting Files
+00:32
+Setting Up Our New Project
+07:41
+Bootstrap Grid Layout System
+20:17
+Getting Montserrat Black and other Font Weights
+00:37
+Adding Grid Layouts to Our Website
+09:39
+A Note About CSS Link Order
+00:52
+Bootstrap Containers
+05:54
+Bootstrap Buttons & Font Awesome
+11:30
+Styling Our Website Challenges and Solutions
+20:20
+Bootstrap Challenge 1
+00:35
+Solution to Bootstrap Challenge 1
+17:01
+Tip from Angela - How to Deal with Procrastination
+04:08
+The Bootstrap Carousel Part 1
+09:39
+The Bootstrap Carousel Part 2
+17:20
+Bootstrap Cards
+16:31
+The CSS Z-Index and Stacking Order
+21:28
+Media Query Breakpoints
+22:03
+Bootstrap Challenge 2
+00:17
+Bootstrap Challenge 2 Solution
+11:46
+How to become a Better Programmer - Code Refactoring
+07:48
+Put it into Practice - Refactor our Website Part 1
+19:20
+Advanced CSS - Combining Selectors
+11:43
+Refactoring our Website Part 2
+05:21
+Advanced CSS - Selector Priority
+05:51
+Completing the Website
+02:34
+Download the Completed Website
+00:09
+Tip from Angela - Building a Programming Habit
+02:46
+Introduction to Web Design
+03:55
+Understanding Colour Theory
+09:04
+Understanding Typography and How to Choose a Font
+10:28
+Manage ATTENTION with Effective User-Interface (UI) Design
+10:27
+User Experience (UX) Design
+13:39
+Web Design in Practice - Let's apply what we've learnt!
+18:20
+Introduction to Javascript
+11:49
+Javascript Alerts - Adding Behaviour to Websites
+14:21
+Data Types
+04:06
+Javascript Variables
+09:35
+Javascript Variables Exercise Start
+02:48
+Javascript Variables Exercise 1 question 00:00
+Javascript Variables Exercise Solution
+03:28
+Naming and Naming Conventions for Javascript Variables
+07:09
+Javascript Variable Naming Quiz 2 questions 00:00
+String Concatenation
+03:07
+String Lengths and Retrieving the Number of Characters
+06:24
+Slicing and Extracting Parts of a String
+08:56
+Challenge: Changing Casing in Text
+03:39
+Challenge: Changing String Casing Solution
+08:59
+Basic Arithmetic and the Modulo Operator in Javascript
+06:14
+Increment and Decrement Expressions
+02:28
+Javascript Numbers Quiz 3 questions 00:00
+Functions Part 1: Creating and Calling Functions
+10:35
+Functions Part 1 Challenge - The Karel Robot
+09:08
+The Karel Chess Board Solution
+00:18
+A Quick Note About the Next Lesson - B
+00:12
+Functions Part 2: Parameters and Arguments
+09:52
+Life in Weeks Coding Exercise  1 question 00:00
+Life in Weeks Solution
+03:44
+Functions Part 3: Outputs & Return Values
+11:16
+Challenge: Create a BMI Calculator
+01:49
+BMI Calculator Challenge  1 question 00:00
+Challenge: BMI Calculator Solution
+05:39
+JavaScript Functions Quiz 5 questions 00:00
+Tip from Angela - Set Your Expectations
+02:35
+Random Number Generation in Javascript: Building a Love Calculator
+11:15
+Control Statements: Using If-Else Conditionals & Logic
+04:48
+Comparators and Equality
+02:51
+Combining Comparators
+02:46
+BMI Calculator Advanced (IF/ELSE)  1 question 00:00
+Introducing the Leap Year Code Challenge
+04:16
+Leap Year Challenge Exercise  1 question 00:00
+Leap Year Solution
+03:03
+Collections: Working with Javascript Arrays
+09:01
+Adding Elements and Intermediate Array Techniques
+15:58
+Who's Buying Lunch? Code Challenge  1 question 00:00
+Who's Buying Lunch Solution
+03:43
+Control Statements: While Loops
+07:52
+Solution to the 99 Bottles Challenge
+00:45
+Control Statements: For Loops
+06:10
+Introducing the Fibonacci Code Challenge
+06:37
+The Fibonacci Exercise  1 question 00:00
+Fibonacci Solution
+08:16
+Tip from Angela - Retrieval is How You Learn
+02:52
+Adding Javascript to Websites
+10:44
+Introduction to the Document Object Model (DOM)
+12:28
+Solution to the DOM Challenge
+00:07
+Selecting HTML Elements with Javascript
+14:17
+Manipulating and Changing Styles of HTML Elements with Javascript
+05:01
+The Separation of Concerns: Structure vs Style vs Behaviour
+05:57
+Text Manipulation and the Text Content Property
+02:37
+Manipulating HTML Element Attributes
+02:27
+Tip from Angela - The 20 Minute Method
+02:39
+Challenge: The Dicee Challenge
+02:14
+Dicee Challenge Step 0 - Download the Skeleton Project
+00:07
+Dicee Challenge Step 1 - Create an External Javascript File
+00:03
+Dicee Challenge Step 2 - Add Dice Images
+00:06
+Dicee Challenge Step 3 - Create a Random Number
+00:09
+Dicee Challenge Step 4 - Change the <img> to a Random Dice
+00:14
+Dicee Challenge Step 5 - Change both <img> Elements
+00:02
+Dicee Challenge Step 6 - Change the Title to Display a Winner
+00:15
+The Solution to the Dicee Challenge
+14:43
+Download the Completed Website
+00:07
+Tip from Angela - Learning Before you Eat
+02:06
+What We'll Make: Drum Kit
+01:19
+Download the Starting Files
+00:07
+Adding Event Listeners to a Button
+14:29
+Higher Order Functions and Passing Functions as Arguments
+12:40
+Higher Order Function Challenge Solution
+00:08
+How to Play Sounds on a Website
+11:11
+A Deeper Understanding of Javascript Objects
+12:04
+How to Use Switch Statements in Javascript
+05:22
+Objects, their Methods and the Dot Notation
+06:29
+A Quick Note About the Next Lesson - C
+00:12
+Using Keyboard Event Listeners to Check for Key Presses
+07:37
+Understanding Callbacks and How to Respond to Events
+11:35
+Adding Animation to Websites
+08:31
+Download the Completed Website
+00:09
+Tip from Angela - Dealing with Lack of Progress
+03:08
+What is jQuery?
+03:44
+How to Incorporate jQuery into Websites
+09:08
+How Minification Works to Reduce File Size
+03:58
+Selecting Elements with jQuery
+02:01
+Manipulating Styles with jQuery
+05:13
+Manipulating Text with jQuery
+03:36
+Manipulating Attributes with jQuery
+03:44
+Adding Event Listeners with jQuery
+07:47
+Adding and Removing Elements with jQuery
+02:58
+Website Animations with jQuery
+08:13
+Tip from Angela - Mixing Knowledge
+02:20
+What You'll Make: The Simon Game
+01:00
+Play the Game
+00:06
+Step 0 - Download the Starting Files
+00:30
+Step 1 - Add Javascript and jQuery
+00:25
+Step 1 - Answer
+00:29
+Step 2 - Create A New Pattern
+00:49
+Step 2 - Answer
+00:29
+Step 3 - Show the Sequence to the User with Animations and Sounds
+00:23
+Step 3 - Answer
+00:29
+Step 4 - Check Which Button is Pressed
+00:47
+Step 4 - Answer
+00:29
+Step 5 - Add Sounds to Button Clicks
+00:22
+Step 5 - Answer
+00:29
+Step 6 - Add Animations to User Clicks
+00:26
+Step 6 - Answer
+00:29
+Step 7 - Start the Game
+00:46
+Step 7 - Answer
+00:29
+Step 8 - Check the User's Answer Against the Game Sequence8
+01:15
+Step 8 - Answer
+00:29
+Step 9 - Game Over
+00:22
+Step 9 - Answer
+00:29
+Step 10 - Restart the Game
+00:07
+Step 10 - Answer
+00:29
+Download the Completed Project Code
+00:20
+Tip from Angela - Dealing with Frustration
+02:31
+Installing the Hyper Terminal
+00:50
+Command Line Hyper Setup
+04:53
+Understanding the Command Line. Long Live the Command Line!
+05:55
+Command Line Techniques and Directory Navigation
+10:13
+Creating, Opening, and Removing Files through the Command Line
+09:09
+Tip from Angela - Sleep is My Secret Weapon
+03:48
+Backend Web Development Explained
+08:02
+Backend Web Development Explained
+05:40
+Install Node.js on Mac
+00:32
+Install Node.js on Windows
+00:25
+The Power of the Command Line and How to Use Node
+06:27
+The Node REPL (Read Evaluation Print Loops)
+02:39
+How to Use the Native Node Modules
+08:19
+The NPM Package Manager and Installing External Node Modules
+13:44
+Tip from Angela - Step Up to the Challenge
+01:14
+What is Express?
+03:24
+Creating Our First Server with Express
+11:29
+Handling Requests and Responses: the GET Request
+08:12
+Nodemon Installation
+01:12
+Understanding and Working with Routes
+09:23
+What We'll Make: A Calculator
+01:52
+Calculator Setup Challenge
+00:25
+Calculator Setup: Challenge Solution
+05:43
+Responding to Requests with HTML Files
+07:40
+Processing Post Requests with Body Parser
+14:19
+BMI Routing Challenge
+00:51
+Solution to the BMI Routing Challenge
+06:29
+Tip from Angela - How to Solidify Your Knowledge
+02:55
+Why Do We Need APIs?
+08:50
+API Endpoints, Paths and Parameters.
+10:59
+API Authentication and Postman
+11:34
+What is JSON?
+04:54
+Making GET Requests with the Node HTTPS Module
+13:00
+How to Parse JSON
+13:05
+Using Express to Render a Website with Live API Data
+08:23
+Using Body Parser to Parse POST Requests to the Server
+10:05
+The Mailchimp API - What You'll Make
+02:41
+Setting Up the Sign Up Page
+20:52
+Posting Data to Mailchimp's Servers via their API
+18:37
+Adding Success and Failure Pages
+08:55
+Deploying Your Server with Heroku
+18:38
+Tip from Angela - Location, Location, Location!
+02:06
+Introduction to Version Control and Git
+02:35
+Version Control Using Git and the Command Line
+15:02
+GitHub and Remote Repositories
+11:00
+GitHub Private Repos are now Free! ?
+00:11
+Gitignore
+12:02
+Cloning
+05:05
+Branching and Merging
+17:25
+Optional Git Challenge
+00:05
+Forking and Pull Requests
+17:08
+Tip from Angela - Spaced Repetition
+04:01
+What We'll Make: A To Do List
+00:46
+Linter Errors with EJS
+00:08
+Templates? Why Do We Need Templates?
+15:10
+Creating Your First EJS Templates
+17:53
+Running Code Inside the EJS Template
+06:33
+Passing Data from Your Webpage to Your Server
+25:05
+The Concept of Scope in the Context of Javascript
+08:40
+Adding Pre-Made CSS Stylesheets to Your Website
+16:14
+Understanding Templating vs. Layouts
+13:35
+Understanding Node Module Exports: How to Pass Functions and Data between Files
+21:45
+Tip from Angela - Use Accountability in your Favour
+02:56
+A New Challenge Format and What We'll Make: A Blog
+06:18
+Setting Up the Blog Project
+07:06
+Challenge 1
+04:04
+Challenge 1 Solution
+02:37
+Challenge 2
+04:07
+Challenge 2 Solution
+02:09
+Challenge 3
+02:37
+Challenge 3 Solution
+02:31
+Challenge 4
+02:05
+Challenge 4 Solution
+01:52
+Challenge 5
+02:47
+Challenge 5 Solution
+04:16
+Challenge 6
+01:24
+Challenge 6 Solution
+01:15
+Challenge 7
+00:59
+Challenge 7 Solution
+01:54
+Challenge 8
+03:26
+Challenge 8 Solution
+03:36
+Challenge 9
+04:42
+Challenge 9 Solution
+06:33
+Challenge 10
+02:24
+Challenge 10 Solution
+03:13
+Challenge 11
+03:21
+Challenge 11 Solution
+03:00
+Challenge 12
+01:55
+Challenge 12 Solution
+02:34
+Challenge 13
+02:46
+Challenge 13 Solution
+03:37
+Challenge 14 and Solution
+06:28
+Challenge 15
+01:41
+Challenge 15 Solution
+03:14
+Express Routing Parameters
+06:38
+Challenge 16
+01:55
+Challenge 16 Solution
+02:32
+Challenge 17
+03:54
+Challenge 17 Solution
+05:30
+Challenge 18
+06:04
+Challenge 18 Solution
+04:19
+Challenge 19
+02:57
+Challenge 19 Solution
+04:54
+Challenge 20
+02:58
+Challenge 20 Solution
+03:18
+Challenge 21
+02:15
+Challenge 21 Solution
+03:44
+Tip from Angela - When Life Gives You Lemons
+06:01
+Databases Explained: SQL vs NOSQL
+19:58
+SQL Commands: CREATE Table and INSERT Data
+13:48
+SQL Commands: READ, SELECT, and WHERE
+03:10
+Updating Single Values and Adding Columns in SQL
+04:42
+SQL Commands: DELETE
+01:32
+Understanding SQL Relationships, Foreign Keys and Inner Joins
+11:13
+Tip from Angela - Find All the Hard Working People
+02:01
+Installing MongoDB on Mac
+12:34
+Installing MongoDB on Windows
+09:20
+MongoDB CRUD Operations in the Shell: Create
+09:37
+MongoDB CRUD Operations in the Shell: Reading & Queries
+06:22
+MongoDB CRUD Operations in the Shell: Update
+04:07
+MongoDB CRUD Operations in the Shell: Delete
+01:45
+Relationships in MongoDB
+06:12
+Working with The Native MongoDB Driver
+19:03
+If You Have Forgotten to Quit the Mongod Server
+00:30
+Tip from Angela - Daily Routines
+02:34
+Introduction to Mongoose
+20:26
+Reading from Your Database with Mongoose
+07:28
+Data Validation with Mongoose
+07:55
+Updating and Deleting Data Using Mongoose
+10:06
+Establishing Relationships and Embedding Documents using Mongoose
+06:45
+Tip from Angela - Deep Work
+03:01
+Let's take the ToDoList Project to the Next Level and Connect it with Mongoose
+16:46
+Rendering Database Items in the ToDoList App
+13:25
+Adding New Items to our ToDoList Database
+03:56
+Deleting Items from our ToDoList Database
+13:48
+Creating Custom Lists using Express Route Parameters
+16:12
+Adding New Items to the Custom ToDo Lists
+07:31
+Revisiting Lodash and Deleting Items from Custom ToDo Lists
+19:10
+Tip from Angela - One Step at a Time
+02:54
+How to Deploy Web Apps with a Database
+05:02
+How to Setup MongoDB Atlas
+13:41
+Deploying an App with a Database to Heroku
+12:13
+Tip from Angela - Discipline Breeds Discipline
+02:20
+Challenge: Give your Blog a Database
+02:31
+Step 0 - Download the Starting Files
+00:06
+Step 1 - Save Composed Posts with MongoDB
+00:35
+Step 2 - Get the Home Page to Render the Posts
+00:14
+Step 3 - Fix the bug
+00:18
+Step 4 - Render the correct blog post based on post _id
+00:32
+Completed Blog with Database Solution
+00:09
+Tip from Angela - Dealing with Limitations
+05:22
+What is REST?
+17:08
+Creating a Database with Robo 3T
+09:29
+Set Up Server Challenge
+02:09
+Set Up Server Solution
+07:30
+GET All Articles
+06:50
+POST a New Article
+12:51
+DELTE All Articles
+05:11
+Chained Route Handlers Using Express
+07:07
+GET a Specific Article
+14:02
+PUT a Specific Article
+10:32
+PATCH a Specific Article
+07:17
+DELETE a Specific Article
+04:04
+Download the Completed Project Code
+00:08
+Tip from Angela - How to Get a Job as Programmer
+02:06
+Introduction to Authentication
+05:46
+Getting Set Up
+07:26
+Level 1 - Register Users with Username and Password
+14:42
+How to Review the Source Code
+00:39
+Level 2 - Database Encryption
+16:35
+Using Environment Variables to Keep Secrets Safe
+17:40
+Level 3 - Hashing Passwords
+15:25
+Hacking 101 ☣️
+12:28
+Level 4 - Salting and Hashing Passwords with bcrypt
+20:41
+What are Cookies and Sessions?
+08:19
+Using Passport.js to Add Cookies and Sessions
+29:30
+Level 6 - OAuth 2.0 & How to Implement Sign In with Google
+47:46
+Finishing Up the App - Letting Users Submit Secrets
+13:40
+Download the Completed Project Code
+00:19
+Tip from Angela - How to Work as a Freelancer
+01:37
+What is React?
+07:28
+What we will make in this React module
+01:34
+Introduction to Code Sandbox and the Structure of the Module
+05:50
+Introduction to JSX and Babel
+16:12
+JSX Code Practice
+07:34
+Javascript Expressions in JSX & ES6 Template Literals
+11:42
+Javascript Expressions in JSX Practice
+08:34
+JSX Attributes & Styling React Elements
+16:58
+Inline Styling for React Elements
+08:41
+React Styling Practice
+09:59
+React Components
+15:47
+React Components Practice
+05:01
+Javascript ES6 - Import, Export and Modules
+11:10
+Javascript ES6 Import, Export and Modules Practice
+04:04
+[Windows]​ Local Environment Setup for React Development
+13:52
+[Mac] Local Environment Setup for React Development​
+13:40
+Keeper App Project - Part 1 Challenge
+04:57
+Keeper App Part 1 Solution
+14:07
+React Props
+16:44
+React Props Practice
+13:19
+React DevTools
+17:19
+Mapping Data to Components
+10:20
+Mapping Data to Components​ Practice
+17:30
+Javascript ES6 Map/Filter/Reduce
+20:21
+Javascript ES6 Arrow functions
+09:56
+Keeper App Project - Part 2
+10:23
+React Conditional Rendering with the Ternary Operator & AND Operator
+19:24
+Conditional Rendering Practice
+06:33
+State in React - Declarative vs. Imperative Programming
+09:38
+React Hooks - useState
+18:09
+useState Hook Practice
+07:24
+Javascript ES6 Object & Array Destructuring
+17:44
+Javascript ​ES6 Destructuring Challenge Solution
+05:48
+Event Handling in React
+11:10
+React Forms
+13:40
+Class Components vs. Functional Components
+06:24
+Changing Complex State
+19:43
+Changing Complex State Practice
+07:08
+Javascript ES6 Spread Operator
+10:58
+Javascript ES6 Spread Operator Practice
+12:20
+Managing a Component Tree
+22:37
+Managing a Component Tree Practice
+08:27
+Keeper App Project - Part 3
+25:05
+React Dependencies & Styling the Keeper App
+16:38
+Tip from Angela - How to Build Your Own Product
+02:14
+AAA 1 - How to Soak in Programming Concepts and more...
+39:42
+AAA 2 - Schedule for Learning to Code and more...
+39:08
+AAA 3 - How to Start Freelancing and more...
+25:19
+AAA 4 - The Live AMA
+59:52
+Vote for the Next Module!
+00:12
