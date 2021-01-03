@@ -7,7 +7,8 @@ processButton.addEventListener('click', processTopics);
 const listElement = document.querySelector('#fpt-list');
 
 function processTopics() {
-  // console.log('Processing Topics - Button Clicked');
+  
+  console.log('Processing Topics - Button Clicked');
 
   const freeTopicsInput = freeTopics.value;
   // console.log('freeTopicsInput', freeTopicsInput);
@@ -15,6 +16,8 @@ function processTopics() {
 
   const paidTopicsInput = paidTopics.value;
   // console.log('paidTopicsInput', paidTopicsInput);
+
+  processPaidTopics(paidTopicsInput);
 
   integrateTopics(freeTopicsInput, paidTopicsInput);
 
@@ -35,6 +38,31 @@ function showTopics(topics) {
   });
 }
 
+function removeBlanks(topics) {
+  const rbRegex  = /\n\n/g;
+  const rbResult = topics.replace(rbRegex, '\n');
+  return rbResult;
+}
+
+function processPaidTopics(topics) {
+  console.log('Processing Paid Topics');
+  const movedTimes = movePaidTimes(topics);
+  function movePaidTimes(topics) {
+    console.log('Moving Paid Times');
+    // console.log('Moving Free Times to end of previous line', topics);
+    const ptRegex  = /\n(\d{1,2}min)/g;
+    let ptResult = topics.replace(ptRegex, ' $1');
+
+    ptResult = removeBlanks(ptResult);
+    ptResult = updatePaidOrphans(ptResult);
+
+    showTopics(ptResult);
+
+    console.log('ptResult', ptResult);
+    return ptResult;
+  }
+}
+
 function processFreeTopics(topics) {
   
   // console.log('Processing Free Topics', topics);
@@ -43,18 +71,33 @@ function processFreeTopics(topics) {
 
   // console.log('Account for Preview Topics');
   const flaggedPreviews = updatePreviews(movedTimes);
-  // console.log('flaggedPreviews', flaggedPreviews);
+  
+  if (!flaggedPreviews) {
+    // console.log('There are no flagged previews');
+  } 
+  else {
 
-  // Manual Process - Update preview lines
+    // console.log('flaggedPreviews', flaggedPreviews);
+    // Manual Process - Update preview lines
+    // showTopics(flaggedPreviews);
+  
+    // console.log('Account for Orphaned Lines'); // No time index or video number
+    const flaggedOrphans = updateFreeOrphans(flaggedPreviews);
+    
+    showTopics(flaggedOrphans);
+  
+  }
 
-  // showTopics(flaggedPreviews);
-
-  // console.log('Account for Orphaned Lines'); // No time index or video number
-  const flaggedOrphans = updateOrphans(flaggedPreviews);
-  showTopics(flaggedOrphans);
+  function moveFreeTimes(topics) {
+    // console.log('Moving Free Times to end of previous line', topics);
+    const ftRegex  = /\n([0-9][0-9]:[0-9][0-9])/g;
+    const ftResult = topics.replace(ftRegex, ' $1');
+    // console.log('ftResult', ftResult);
+    return ftResult;
+  }
 }
 
-function updateOrphans(topics) {
+function updateFreeOrphans(topics) {
 
   // ^((?!hede).)*$
   // ^((?!([0-9][0-9]:[0-9][0-9])).)*$
@@ -71,14 +114,37 @@ function updateOrphans(topics) {
 
   const newArray = topicsArray.map((line) => {
 
-    const pmd = 'Possible Missing Description ';
     const flg = ' ***';
 
     const ftRegex  = /([0-9][0-9]:[0-9][0-9])/g;
     let myResult = ftRegex.test(line);
 
     if (!myResult) { 
-      console.log(myResult, line) 
+      console.log("updateFreeOrphans: myResult, line", myResult, line)
+      return line + flg;
+    } else {
+      return line;
+    }
+
+  });
+
+  // return topics;
+  return newArray.join("\n");
+
+}
+
+function updatePaidOrphans(topics) {
+
+  const topicsArray = topics.split("\n");
+  const newArray = topicsArray.map((line) => {
+
+    const flg = ' ***';
+
+    const ftRegex  = /(\d{1,2}min)/g;
+    let myResult = ftRegex.test(line);
+
+    if (!myResult) { 
+      console.log("updatePaidOrphans: myResult, line", myResult, line)
       return line + flg;
     } else {
       return line;
@@ -108,14 +174,6 @@ function updatePreviews(topics) {
   // console.log(newArray);
 
   return newArray.join("\n");
-}
-
-function moveFreeTimes(topics) {
-  // console.log('Moving Free Times to end of previous line', topics);
-  const ftRegex  = /\n([0-9][0-9]:[0-9][0-9])/g;
-  const ftResult = topics.replace(ftRegex, ' $1');
-  // console.log('ftResult', ftResult);
-  return ftResult;
 }
 
 function integrateTopics(freeTopics, paidTopics) {
