@@ -186,6 +186,7 @@ function updatePreviews(topics) {
 function integrateTopicsA(freeTopics, paidTopics) {
 
   const paidTopicsArray = paidTopics.split("\n");
+  const freeTopicsArray = freeTopics.split("\n");
   
   paidTopicsArray.map((paidTopic) => {
     
@@ -199,7 +200,31 @@ function integrateTopicsA(freeTopics, paidTopics) {
       console.log(paidTopic + '**********');
     }
     else {
-      console.log(paidTopic, ptNumberSegment);
+
+      // console.log(paidTopic, ptNumberSegment);
+
+      if (ptStringSegment[0] === undefined) { console.log(paidTopic + "++++++++++") }
+
+      freeTopicsArray.map((freeTopic) => {
+
+        // console.log(freeTopic);
+
+        const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+        const ftStringSegment = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'));
+        const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'));
+
+        // Course Content - Manual Fixes...needed a time index
+        if (ftStringSegment[0] === undefined) { 
+          console.log("ftSegment[0]" + freeTopic + "++++++++++")
+          console.log("Some topics are missing a time index.");
+        }
+
+        if (ptStringSegment[0].replace("Preview", "").trim() === ftStringSegment[0].replace("Preview", "").trim()) {
+          console.log(`${ paidTopic } ${ ftTimeSegment }`);
+        }
+
+      });
+
     }
 
   });
