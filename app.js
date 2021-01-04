@@ -8,11 +8,13 @@ const listElement = document.querySelector('#fpt-list');
 
 function processTopics() {
   
-  console.log('Processing Topics - Button Clicked');
+  // console.log('Processing Topics - Button Clicked');
 
   const freeTopicsInput = freeTopics.value;
   // console.log('freeTopicsInput', freeTopicsInput);
-  processFreeTopics(freeTopicsInput);
+  const freeInfo = processFreeTopics(freeTopicsInput);
+
+  // showTopics(freeInfo);
 
   const paidTopicsInput = paidTopics.value;
   // console.log('paidTopicsInput', paidTopicsInput);
@@ -23,7 +25,7 @@ function processTopics() {
 
 }
 
-function showTopics(topics) {
+function showTopics(topics = 'Showing Default Output') {
 
   const topicsArray = topics.split("\n");
 
@@ -45,10 +47,10 @@ function removeBlanks(topics) {
 }
 
 function processPaidTopics(topics) {
-  console.log('Processing Paid Topics');
+  // console.log('Processing Paid Topics');
   const movedTimes = movePaidTimes(topics);
   function movePaidTimes(topics) {
-    console.log('Moving Paid Times');
+    // console.log('Moving Paid Times');
     // console.log('Moving Free Times to end of previous line', topics);
     const ptRegex  = /\n(\d{1,2}min)/g;
     let ptResult = topics.replace(ptRegex, ' $1');
@@ -56,11 +58,13 @@ function processPaidTopics(topics) {
     ptResult = removeBlanks(ptResult);
     ptResult = updatePaidOrphans(ptResult);
 
-    showTopics(ptResult);
+    // showTopics(ptResult);
 
-    console.log('ptResult', ptResult);
+    // console.log('ptResult', ptResult);
     return ptResult;
   }
+
+  return movedTimes;
 }
 
 function processFreeTopics(topics) {
@@ -83,8 +87,10 @@ function processFreeTopics(topics) {
   
     // console.log('Account for Orphaned Lines'); // No time index or video number
     const flaggedOrphans = updateFreeOrphans(flaggedPreviews);
-    
-    showTopics(flaggedOrphans);
+
+    // showTopics(flaggedOrphans);
+
+    return flaggedOrphans;
   
   }
 
@@ -120,7 +126,7 @@ function updateFreeOrphans(topics) {
     let myResult = ftRegex.test(line);
 
     if (!myResult) { 
-      console.log("updateFreeOrphans: myResult, line", myResult, line)
+      // console.log("updateFreeOrphans: myResult, line", myResult, line)
       return line + flg;
     } else {
       return line;
@@ -144,7 +150,7 @@ function updatePaidOrphans(topics) {
     let myResult = ftRegex.test(line);
 
     if (!myResult) { 
-      console.log("updatePaidOrphans: myResult, line", myResult, line)
+      // console.log("updatePaidOrphans: myResult, line", myResult, line)
       return line + flg;
     } else {
       return line;
@@ -178,6 +184,30 @@ function updatePreviews(topics) {
 
 function integrateTopics(freeTopics, paidTopics) {
 
-  // console.log('Integrating Topics');
+  console.log('Integrating Topics');
+  // console.log('freeTopic', freeTopics);
+  const freeTopicsArray = freeTopics.split("\n");
+  const paidTopicsArray = paidTopics.split("\n");
 
+  freeTopicsArray.map((freeTopic) => { // freeTopics don't have the Sections
+    
+    // console.log(freeTopic);
+
+    const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+    const ftStringSegment = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'));
+    const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'));
+
+    // console.log(ftStringSegment);
+    showTopics(ftStringSegment[0]);
+
+    paidTopicsArray.map((paidTopic) => {
+      const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
+      const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'));
+      const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'));
+      const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'));
+
+      console.log(`${ ptNumberSegment[0] } | ${ paidTopic }`);
+
+    });
+  });
 }
