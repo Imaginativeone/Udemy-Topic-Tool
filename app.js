@@ -208,7 +208,7 @@ function integrateTopics(freeTopics, paidTopics) {
     showTopics(ftStringSegment[0]);
 
     paidTopicsArray.map((paidTopic) => {
-      
+
       const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
       const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'));
       const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'));
@@ -216,10 +216,16 @@ function integrateTopics(freeTopics, paidTopics) {
 
       // console.log(`${ ptNumberSegment[0] } | ${ paidTopic }`);
 
-      if (ptNumberSegment[0] === undefined && paidTopic.indexOf('Section') !== -1) {
-        console.log(paidTopic);
-      }
+      // if (ptNumberSegment[0] === undefined && paidTopic.indexOf('Section') !== -1) {
+      //   console.log(paidTopic);
+      // }
 
+      if ((ptStringSegment[0] === undefined) || (ftStringSegment[0] === undefined)) {} 
+      else {
+        if ((ptStringSegment[0].replace("Preview", "").trim() === ftStringSegment[0].replace("Preview", "").trim())) {
+          console.log(`${ ptNumberSegment[0] } ${ ptStringSegment[0] } ${ ftTimeSegment }`);
+        }
+      }
     });
   });
 }
