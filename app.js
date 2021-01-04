@@ -184,6 +184,13 @@ function updatePreviews(topics) {
 
 function integrateTopics(freeTopics, paidTopics) {
 
+  const topicsArray = [];
+  const objTopic = {
+    section: '',
+    videoNumber: '',
+    duration: ''
+  };
+
   console.log('Integrating Topics');
   // console.log('freeTopic', freeTopics);
   const freeTopicsArray = freeTopics.split("\n");
@@ -201,12 +208,17 @@ function integrateTopics(freeTopics, paidTopics) {
     showTopics(ftStringSegment[0]);
 
     paidTopicsArray.map((paidTopic) => {
+      
       const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
       const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'));
       const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'));
       const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'));
 
-      console.log(`${ ptNumberSegment[0] } | ${ paidTopic }`);
+      // console.log(`${ ptNumberSegment[0] } | ${ paidTopic }`);
+
+      if (ptNumberSegment[0] === undefined && paidTopic.indexOf('Section') !== -1) {
+        console.log(paidTopic);
+      }
 
     });
   });
