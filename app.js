@@ -21,7 +21,8 @@ function processTopics() {
 
   processPaidTopics(paidTopicsInput);
 
-  integrateTopics(freeTopicsInput, paidTopicsInput);
+  // integrateTopics(freeTopicsInput, paidTopicsInput);
+  integrateTopicsA(freeTopicsInput, paidTopicsInput);
 
 }
 
@@ -182,6 +183,18 @@ function updatePreviews(topics) {
   return newArray.join("\n");
 }
 
+function integrateTopicsA(freeTopics, paidTopics) {
+
+  const paidTopicsArray = paidTopics.split("\n");
+  
+  paidTopicsArray.map((paidTopic) => {
+
+    console.log(paidTopic);
+
+  });
+
+}
+
 function integrateTopics(freeTopics, paidTopics) {
 
   const topicsArray = [];
@@ -220,7 +233,7 @@ function integrateTopics(freeTopics, paidTopics) {
       //   console.log(paidTopic);
       // }
 
-      if ((ptStringSegment[0] === undefined) || (ftStringSegment[0] === undefined)) {} 
+      if ((ptStringSegment[0] === undefined) || (ftStringSegment[0] === undefined)) {}
       else {
         if ((ptStringSegment[0].replace("Preview", "").trim() === ftStringSegment[0].replace("Preview", "").trim())) {
           console.log(`${ ptNumberSegment[0] } ${ ptStringSegment[0] } ${ ftTimeSegment }`);
