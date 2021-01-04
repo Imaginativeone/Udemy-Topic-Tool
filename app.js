@@ -22,7 +22,9 @@ function processTopics() {
   processPaidTopics(paidTopicsInput);
 
   // integrateTopics(freeTopicsInput, paidTopicsInput);
-  integrateTopicsA(freeTopicsInput, paidTopicsInput);
+  const integratedTopics = integrateTopicsA(freeTopicsInput, paidTopicsInput);
+
+  showTopics(integratedTopics);
 
 }
 
@@ -185,6 +187,8 @@ function updatePreviews(topics) {
 
 function integrateTopicsA(freeTopics, paidTopics) {
 
+  const resultsArray = [];
+
   const paidTopicsArray = paidTopics.split("\n");
   const freeTopicsArray = freeTopics.split("\n");
   
@@ -197,7 +201,8 @@ function integrateTopicsA(freeTopics, paidTopics) {
     const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'));
     
     if (ptNumberSegment[0] == undefined) { 
-      console.log(paidTopic + '**********');
+      console.log(paidTopic);
+      resultsArray.push(paidTopic);
     }
     else {
 
@@ -220,7 +225,9 @@ function integrateTopicsA(freeTopics, paidTopics) {
         }
 
         if (ptStringSegment[0].replace("Preview", "").trim() === ftStringSegment[0].replace("Preview", "").trim()) {
-          console.log(`${ paidTopic } ${ ftTimeSegment }`);
+          // console.log(`${ paidTopic } ${ ftTimeSegment }`);
+          console.log(`${ ptNumberSegment } ${ ptStringSegment } ${ ftTimeSegment }`);
+          resultsArray.push(`${ ptNumberSegment } ${ ptStringSegment } ${ ftTimeSegment }`);
         }
 
       });
@@ -229,6 +236,8 @@ function integrateTopicsA(freeTopics, paidTopics) {
 
   });
 
+  const results = resultsArray.join("\n");
+  return results;
 }
 
 function integrateTopics(freeTopics, paidTopics) {
