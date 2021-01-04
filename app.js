@@ -188,8 +188,19 @@ function integrateTopicsA(freeTopics, paidTopics) {
   const paidTopicsArray = paidTopics.split("\n");
   
   paidTopicsArray.map((paidTopic) => {
-
-    console.log(paidTopic);
+    
+    // if paidTopic doesn't have a number segment, then it is a special topic
+    const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
+    const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'));
+    const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'));
+    const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'));
+    
+    if (ptNumberSegment[0] == undefined) { 
+      console.log(paidTopic + '**********');
+    }
+    else {
+      console.log(paidTopic, ptNumberSegment);
+    }
 
   });
 
