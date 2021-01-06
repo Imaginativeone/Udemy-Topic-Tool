@@ -21,10 +21,45 @@ function processTopics() {
 
   processPaidTopics(paidTopicsInput);
 
-  // integrateTopics(freeTopicsInput, paidTopicsInput);
-  const integratedTopics = integrateTopicsA(freeTopicsInput, paidTopicsInput);
+  compareArrays(freeTopicsInput, paidTopicsInput);
 
-  showTopics(integratedTopics);
+  // integrateTopics(freeTopicsInput, paidTopicsInput);
+  // const integratedTopics = integrateTopicsA(freeTopicsInput, paidTopicsInput);
+
+  // showTopics(integratedTopics);
+
+}
+
+function compareArrays(freeComparison, paidComparison) {
+
+  const paidArray = paidComparison.split("\n");
+
+  // The paids are the ones with the numbers and Sections
+  // Dump the sections
+  const noPaidSections = [];
+  const p = paidArray.map((paidTopic) => {
+    // if paidTopic doesn't have a number segment, then it is a special topic
+    const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
+    const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'))[0];
+    const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'))[0];
+    const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'))[0];
+
+    if (ptStringSegment !== undefined) {
+      noPaidSections.push(ptStringSegment.trim());
+    }
+
+  });
+  console.log(noPaidSections);
+  
+  const noFreeSections = [];
+  const freeArray = freeComparison.split("\n");
+  const f = freeArray.map((freeTopic) => {
+
+    const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+    const ftStringSegment = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'));
+    const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'));
+
+  });
 
 }
 
