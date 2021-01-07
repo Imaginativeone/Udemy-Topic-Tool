@@ -36,30 +36,97 @@ function compareArrays(freeComparison, paidComparison) {
 
   // The paids are the ones with the numbers and Sections
   // Dump the sections
-  const noPaidSections = [];
-  const p = paidArray.map((paidTopic) => {
-    // if paidTopic doesn't have a number segment, then it is a special topic
-    const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
-    const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'))[0];
-    const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'))[0];
-    const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'))[0];
 
-    if (ptStringSegment !== undefined) {
-      noPaidSections.push(ptStringSegment.trim());
-    }
-
-  });
-  console.log(noPaidSections);
+  const noPaidSections = getStrippedSections(paidArray);
+  function getStrippedSections(paidArray) {
+    const _noPaidSections = [];
+    const p = paidArray.map((paidTopic) => {
+      // if paidTopic doesn't have a number segment, then it is a special topic
+      const ptRegex = /(^\d{1,2}\.)(.*)(\d{1,2}min)/g
+      const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'))[0];
+      const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'))[0];
+      const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'))[0];
+      if (ptStringSegment !== undefined) {
+        _noPaidSections.push(ptStringSegment.trim());
+      }
+    });
+    // console.log(_noPaidSections);
+    return _noPaidSections;
+  }
   
-  const noFreeSections = [];
   const freeArray = freeComparison.split("\n");
-  const f = freeArray.map((freeTopic) => {
+  const noFreeSections = getFreeSections(freeArray);
+  
+  function getFreeSections(freeArray) {
 
-    const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
-    const ftStringSegment = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'));
-    const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'));
+    const _noFreeSections = [];
+    const f = freeArray.map((freeTopic) => {
+  
+      const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+      const ftStringSegment = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'))[0];
+      const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'))[0];
+  
+      // console.log('free', ftStringSegment);
+  
+      if (ftStringSegment !== undefined) {
+        _noFreeSections.push(ftStringSegment.trim());
+      }
+  
+    });
+    return _noFreeSections;
+  }
 
-  });
+  const verifiedSections = verifySections(noFreeSections, noPaidSections);
+  
+  function verifySections(noFreeSections, noPaidSections) {
+    const comparisonArray = [];
+  
+    console.log(noPaidSections.length);
+    console.log(noFreeSections.length);
+  
+    let orphanCount = 0;
+    const orphans = [];
+    
+    noPaidSections.map((p, paidIndex) => {
+      // console.log(paidTopic, paidIndex);
+      noFreeSections.map((f, freeIndex) => {
+        // console.log(freeTopic, freeIndex);
+  
+        if ((paidIndex === freeIndex) && (p.trim() !== f.trim())) {
+  
+          console.log(`paidTopic:${ p } | L:${ p.length } | freeTopic:${ f } | L:${ f.length }`);
+  
+          orphanCount++;
+          // console.log(`${ paidIndex } ${ paidTopic } | ${ freeIndex } ${ freeTopic } ***`);
+          comparisonArray.push(`orphanCount: ${ orphanCount } i:${ paidIndex } ${ p } | i:${ freeIndex } ${ f } ***`);
+          orphans.push(`orphanCount: ${ orphanCount } i:${ paidIndex } ${ p } | i:${ freeIndex } ${ f } ***`);
+        }
+        else if ((paidIndex === freeIndex) && (p.trim() === f.trim())) {
+          // console.log(`${ paidIndex } ${ paidTopic } | ${ freeIndex } ${ freeTopic }`);
+          comparisonArray.push(`${ paidIndex } ${ p } | ${ freeIndex } ${ f }`);
+        }
+  
+      });
+    });
+  
+    console.log('orphanCount', orphanCount);
+    orphans.map(o => console.log('orphan', o));
+  
+    if (orphanCount !== 0) {
+      console.log('Tend to the non-matching topics!');
+    } else {
+  
+    }
+  
+    // console.log(comparisonArray);
+    showTopics(comparisonArray.join("\n"));
+    
+    return comparisonArray;
+  
+  }
+
+
+
 
 }
 
@@ -155,7 +222,7 @@ function updateFreeOrphans(topics) {
   // return ftResult;
 
   const topicsArray = topics.split("\n");
-
+  
   const newArray = topicsArray.map((line) => {
 
     const flg = ' ***';
@@ -164,8 +231,9 @@ function updateFreeOrphans(topics) {
     let myResult = ftRegex.test(line);
 
     if (!myResult) { 
+
       // console.log("updateFreeOrphans: myResult, line", myResult, line)
-      return line + flg;
+      return `orphanCount: ${ line } + ${ flg }`;
     } else {
       return line;
     }
@@ -182,7 +250,7 @@ function updatePaidOrphans(topics) {
   const topicsArray = topics.split("\n");
   const newArray = topicsArray.map((line) => {
 
-    const flg = ' ***';
+    const flg = ' ';
 
     const ftRegex  = /(\d{1,2}min)/g;
     let myResult = ftRegex.test(line);
@@ -215,6 +283,7 @@ function updatePreviews(topics) {
       return line;
     }
   });
+  
   // console.log(newArray);
 
   return newArray.join("\n");
