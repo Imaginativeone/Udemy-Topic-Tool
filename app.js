@@ -21,12 +21,80 @@ function processTopics() {
 
   processPaidTopics(paidTopicsInput);
 
-  compareArrays(freeTopicsInput, paidTopicsInput);
+  const compArray = compareArrays(freeTopicsInput, paidTopicsInput);
+  // console.log('compArray', compArray);
+  // console.log('f', freeTopicsInput);
+  // console.log('p', paidTopicsInput);
 
   // integrateTopics(freeTopicsInput, paidTopicsInput);
   // const integratedTopics = integrateTopicsA(freeTopicsInput, paidTopicsInput);
 
   // showTopics(integratedTopics);
+
+  const integratedTopics = integrateTopicsB(freeTopicsInput, paidTopicsInput, compArray);
+
+  showTopics(integratedTopics);
+
+}
+
+function integrateTopicsB(fti, pti, ca) {
+
+  const mergedTopics = [];
+
+  // showTopics(fti);
+  // showTopics(pti);
+  // showTopics(ca);
+
+  const ftiArray = fti.split("\n");
+  const ptiArray = pti.split("\n");
+  const caArray  = ca.split("\n");
+
+  ptiArray.forEach((topic, index) => {
+
+    const topicRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
+    const topicNumberSegment = (topic.match(topicRegex) || []).map(e => e.replace(topicRegex, '$1'));
+
+    if (!topicNumberSegment[0]) {
+      console.log(topic);
+      mergedTopics.push(topic.split().join().trim());
+    } 
+    else {
+
+      // console.log(topic);
+
+      // get freeTopicsInput elements ////////////////////////////////////////////////////////
+      // const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+      // const ftStringSegment = (ftiArray[index].match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'))[0];
+      // const ftTimeSegment   = (ftiArray[index].match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'))[0];
+    
+      // get paidTopicsInput elements ////////////////////////////////////////////////////////
+      const ptRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
+      const ptNumberSegment = (topic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'));
+      const ptStringSegment = (topic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'));
+      const ptTimeSegment   = (topic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'));
+
+      const timeEval = ftiArray.find((freeTopic) => {
+        const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+        const ftStringSegment = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$1'));
+        const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'));
+        // console.log('ptStringSegment[0]', ptStringSegment[0].trim());
+        // console.log('ftStringSegment[0]', ftStringSegment[0].trim());
+        return ftStringSegment[0].trim().indexOf(ptStringSegment[0].trim()) !== -1;
+      });
+
+      const timeSegmentRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
+      const timeString  = (timeEval.match(timeSegmentRegex) || []).map(e => e.replace(timeSegmentRegex, '$1'));
+      const timeSegment = (timeEval.match(timeSegmentRegex) || []).map(e => e.replace(timeSegmentRegex, '$2'));
+
+      // console.log(`${ ptNumberSegment[0].trim() } ${ ptStringSegment[0].trim() } t:${ timeSegment[0].trim() }`);
+      console.log(`${ ptNumberSegment[0].trim() } ${ ptStringSegment[0].trim() } ${ timeSegment[0].trim() }`);
+
+      mergedTopics.push(`${ ptNumberSegment[0].trim() } ${ ptStringSegment[0].trim() } ${ timeSegment[0].trim() }`);
+    }
+
+  });
+
+  return mergedTopics.join("\n");
 
 }
 
@@ -38,6 +106,7 @@ function compareArrays(freeComparison, paidComparison) {
   // Dump the sections
 
   const noPaidSections = getStrippedSections(paidArray);
+
   function getStrippedSections(paidArray) {
     const _noPaidSections = [];
     const p = paidArray.map((paidTopic) => {
@@ -77,7 +146,7 @@ function compareArrays(freeComparison, paidComparison) {
   }
 
   const verifiedSections = verifySections(noFreeSections, noPaidSections);
-  
+
   function verifySections(noFreeSections, noPaidSections) {
     const comparisonArray = [];
   
@@ -103,7 +172,8 @@ function compareArrays(freeComparison, paidComparison) {
         }
         else if ((paidIndex === freeIndex) && (p.trim() === f.trim())) {
           // console.log(`${ paidIndex } ${ paidTopic } | ${ freeIndex } ${ freeTopic }`);
-          comparisonArray.push(`${ paidIndex } ${ p } | ${ freeIndex } ${ f }`);
+          // comparisonArray.push(`${ paidIndex } ${ p } | ${ freeIndex } ${ f }`);
+          comparisonArray.push(`${ p } | ${ f }`);
         }
   
       });
@@ -119,14 +189,13 @@ function compareArrays(freeComparison, paidComparison) {
     }
   
     // console.log(comparisonArray);
-    showTopics(comparisonArray.join("\n"));
+    // showTopics(comparisonArray.join("\n"));
     
-    return comparisonArray;
+    return comparisonArray.join("\n");
   
   }
 
-
-
+  return verifiedSections;
 
 }
 
