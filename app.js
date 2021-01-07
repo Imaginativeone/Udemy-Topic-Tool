@@ -47,20 +47,20 @@ function integrateTopicsB(fti, pti, ca) {
 
   const ftiArray = fti.split("\n");
   const ptiArray = pti.split("\n");
-  const caArray  = ca.split("\n");
+  const caArray  =  ca.split("\n");
 
   ptiArray.forEach((topic, index) => {
 
     const topicRegex = /^(\d{1,3}\.)(.*)(\d{1,2}min)/g
     const topicNumberSegment = (topic.match(topicRegex) || []).map(e => e.replace(topicRegex, '$1'));
 
-    if (!topicNumberSegment[0]) {
+    if ((!topicNumberSegment[0]) || (topicNumberSegment[0] === undefined)) {
       console.log(topic);
       mergedTopics.push(topic.split().join().trim());
     } 
     else {
 
-      // console.log(topic);
+      console.log(topic);
 
       // get freeTopicsInput elements ////////////////////////////////////////////////////////
       // const ftRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
@@ -79,7 +79,10 @@ function integrateTopicsB(fti, pti, ca) {
         const ftTimeSegment   = (freeTopic.match(ftRegex) || []).map(e => e.replace(ftRegex, '$2'));
         // console.log('ptStringSegment[0]', ptStringSegment[0].trim());
         // console.log('ftStringSegment[0]', ftStringSegment[0].trim());
-        return ftStringSegment[0].trim().indexOf(ptStringSegment[0].trim()) !== -1;
+        if (ftStringSegment[0] === undefined || ptStringSegment[0] === undefined) {}
+        else {
+          return ftStringSegment[0].trim().indexOf(ptStringSegment[0].trim()) !== -1;
+        }
       });
 
       const timeSegmentRegex = /(.*)([0-9][0-9]:[0-9][0-9])/g
@@ -111,7 +114,7 @@ function compareArrays(freeComparison, paidComparison) {
     const _noPaidSections = [];
     const p = paidArray.map((paidTopic) => {
       // if paidTopic doesn't have a number segment, then it is a special topic
-      const ptRegex = /(^\d{1,2}\.)(.*)(\d{1,2}min)/g
+      const ptRegex = /(^\d{1,3}\.)(.*)(\d{1,2}min)/g
       const ptNumberSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$1'))[0];
       const ptStringSegment = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$2'))[0];
       const ptTimeSegment   = (paidTopic.match(ptRegex) || []).map(e => e.replace(ptRegex, '$3'))[0];
