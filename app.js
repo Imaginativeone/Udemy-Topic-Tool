@@ -12,33 +12,38 @@ function loadPaidTopics() {
 
     console.log('Load Paid Topics');
     const paidTopicsArray = paidTopics.value.split("\n");
-    // console.log('paidTopicsArray', paidTopicsArray);
 
-    const sections = paidTopicsArray.filter((section) => {
-        return (section.indexOf("Section") != -1)
-    });
-    // console.log('Sections', sections);
+    const sections = paidTopicsArray.filter(section => section.indexOf("Section") != -1);
+    
+    let sectionIndex = 0;
+    let section = {};
+    let sectionsArray = [];
+    let topicsArray = [];
 
-    let topicIndex = 0;
-    let topicVolume = 0;
-    let topicItem = {};
+    paidTopicsArray.forEach((topic) => {
 
-    paidTopicsArray.map((topic, index) => {
+        // console.log('topic', topic);
 
-        if (topic == sections[topicIndex]) {
-            topicVolume = 0;
-            topicIndex++;
-            // console.log(topic, topicVolume);
-            topicItem.section = topic;
-            topicItem.topic = topic;
-            console.log('topicItem', topicItem);
+        if (topic == sections[sectionIndex]) {
+
+
+            section = {
+                title: sections[sectionIndex],
+                topicsArray: []
+            }
+
+            console.log('Section', sections[sectionIndex]);
+            sectionsArray.push(section);
+            sectionIndex++;
+            
         } else {
-            topicVolume++;
-            // console.log('topic', topic, 'topicVolume', topicVolume);
-            topicItem.topic = topic;
-            console.log('topicItem', topicItem);
+
+            section.topicsArray.push(topic);
+            // section.topics = topicsArray;
+
         }
-
-    })
-
+        
+    });
+    
+    console.log(sectionsArray);
 }
