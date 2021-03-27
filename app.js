@@ -19,27 +19,24 @@ function loadInfo() {
 }
 
 function meldTopics(paid, free) {
+
+    let paidText = '';
     
     paid.forEach((paidTopic) => {
 
         paidTopic.topics.forEach((pTopic) => {
-
-            const ptRegex   = /(\d{1,2}min)/g;
-            let ptTimeMatch = pTopic.match(ptRegex);
             
             const ptTextRegex = /([0-9][0-9][0-9]\.)(.*)(\d{1,2}min)/;
             let ptTextMatch   = pTopic.match(ptTextRegex); // deleted the g
-             
-            // let ptResult = pTopic.replace(ptRegex, ' $1');
-            // console.log('ptTextMatch', ptTextMatch);
+            
+            ptTextMatch == null ? paidText = '' : paidText = ptTextMatch[2];
 
-            if (ptTextMatch == null) {
-                console.log('PROBLEM');
-            } else {
-                console.log(ptTextMatch[1], ptTextMatch[2]);
-            }
+            console.log('paidText', paidText);
 
             free.forEach((fTopic) => {
+
+                const ftTextRegex = /(.*)/;
+                let ftTextMatch   = pTopic.match(ptTextRegex); // deleted the g    
 
                 if (fTopic.indexOf(pTopic) != -1) {
 
