@@ -1,0 +1,598 @@
+Course content
+Section 1: Getting Started 11/11 | 40min
+1. Introduction 2min
+2. What is React? 3min
+3. Join our Online Learning Community 1min
+4. Real-World SPAs & React Web Apps 2min
+5. Writing our First React Code 15min
+6. Why Should we Choose React? 2min
+7. React Alternatives 1min
+8. Understanding Single Page Applications and Multi Page Applications 4min
+9. Course Outline 7min
+10. How to get the Most out of This Course 2min
+11. Useful Resources & Links 1min
+Section 2: Refreshing Next Generation JavaScript (Optional) 11/13 | 44min
+12. Module Introduction 2min
+13. Understanding "let" and "const" 3min
+14. Arrow Functions 5min
+15. Exports and Imports 5min
+16. Understanding Classes 5min
+17. Classes, Properties and Methods 3min
+18. The Spread & Rest Operator 7min
+19. Destructuring 3min
+20. Reference and Primitive Types Refresher 4min
+21. Refreshing Array Functions 3min
+22. Wrap Up 1min
+23. Next-Gen JavaScript - Summary 4min
+24. JS Array Functions 1min
+Section 3: Understanding the Base Features & Syntax 23/28 | 2hr 21min
+25. Module Introduction 1min
+26. The Build Workflow 8min
+27. Using Create React App 6min
+28. Understanding the Folder Structure 8min
+29. Understanding Component Basics 6min
+30. Understanding JSX 6min
+31. JSX Restrictions 3min
+32. Creating a Functional Component 8min
+33. Components & JSX Cheat Sheet 1min
+34. Working with Components & Re-Using
+Them 2min
+35. Outputting Dynamic Content 3min
+36. Working with Props 4min
+37. Understanding the "children" Prop 3min
+38. Understanding & Using State 7min
+39. Props & State 2min
+40. Handling Events with Methods 4min
+41. To Which Events Can You Listen? 1min
+42. Manipulating the State 5min
+43. Function Components Naming 1min
+44. Using the useState() Hook for State
+Manipulation 14min
+45. Stateless vs Stateful Components 3min
+46. Passing Method References Between
+Components 7min
+47. Adding Two Way Binding 7min
+48. Adding Styling with Stylesheets 5min
+49. Working with Inline Styles 4min
+Progress cannot be changed for this item
+Assignment 1: Time to Practice - The Base
+Syntax
+50. [OPTIONAL] Assignment Solution 22min
+51. Useful Resources & Links 1min
+Section 4: Working with Lists and
+Conditionals
+9 / 13|1hr 1min
+52. Module Introduction 1min
+53. Rendering Content Conditionally 10min
+54. Handling Dynamic Content "The
+JavaScript Way" 5min
+55. Outputting Lists (Intro) 2min
+56. Outputting Lists 6min
+57. Lists & State 4min
+58. Updating State Immutably 3min
+59. Lists & Keys 4min
+60. Flexible Lists 8min
+61. Wrap Up 2min
+Progress cannot be changed for this item
+Assignment 2: Time to Practice - Lists &
+Conditionals
+62. [OPTIONAL] Assignment Solution 17min
+63. Useful Resources & Links 1min
+Section 5: Styling React Components &
+Elements
+11 / 13|1hr 5min
+64. Module Introduction 1min
+65. Outlining the Problem Set 2min
+66. Setting Styles Dynamically 3min
+67. Setting Class Names Dynamically 7min
+68. Adding and Using Radium 7min
+69. Using Radium for Media Queries 5min
+70. Introducing Styled Components 8min
+71. More on Styled Components 6min
+72. Styled Components & Dynamic Styles 5min
+73. Working with CSS Modules 15min
+74. CSS Modules & Media Queries 3min
+75. More on CSS Modules 1min
+76. Useful Resources & Links 1min
+Section 6: Debugging React Apps
+6 / 7|20min
+77. Module Introduction 1min
+78. Understanding Error Messages 3min
+79. Finding Logical Errors by using Dev Tools
+& Sourcemaps 4min
+80. Working with the React Developer Tools 3min
+81. Using Error Boundaries (React 16+) 8min
+82. Wrap Up 1min
+83. Useful Resources & Links 1min
+Section 7: Diving Deeper into
+Components & React Internals
+32 / 33|2hr 54min
+84. Module Introduction 1min
+85. A Better Project Structure 7min
+86. Splitting an App Into Components 16min
+87. Comparing Stateless and Stateful
+Components 4min
+88. Class-based vs Functional Components 5min
+89. class Component Lifecycle Overview 5min
+90. Component Creation Lifecycle in Action 7min
+91. Component Update Lifecycle (for props
+Changes) 16min
+92. Component Update Lifecycle (for state
+Changes) 4min
+93. Using useEffect() in Functional
+Components 4min
+94. Controlling the useEffect() Behavior 4min
+95. Cleaning up with Lifecycle Hooks &
+useEffect() 7min
+96. Cleanup Work with useEffect() - Example 2min
+97. Using shouldComponentUpdate for
+Optimization 7min
+98. Optimizing Functional Components with
+React.memo() 4min
+99. When should you optimize? 2min
+100. PureComponents instead of
+shouldComponentUpdate 4min
+101. How React Updates the DOM 4min
+102. Rendering Adjacent JSX Elements 9min
+103. Windows Users Must Read 1min
+104. Using React.Fragment 1min
+105. Higher Order Components (HOC) -
+Introduction 4min
+106. Another Form of HOCs 6min
+107. Passing Unknown Props 5min
+108. Setting State Correctly 5min
+109. Using PropTypes 7min
+110. Using Refs 8min
+111. Refs with React Hooks 5min
+112. Understanding Prop Chain Problems 5min
+113. Using the Context API 10min
+114. contextType & useContext() 6min
+115. Wrap Up 1min
+116. Useful Resources & Links 1min
+Section 8: A Real App: The Burger
+Builder (Basic Version)
+7 / 42|4hr
+117. About React Hooks 1min
+118. Module Introduction 1min
+119. Planning an App in React - Core Steps 3min
+120. Planning our App - Layout and
+Component Tree 11min
+121. Planning the State 4min
+122. MUST READ: Enabling CSS Modules 1min
+123. Setting up the Project 5min
+124. Creating a Layout Component 10min
+125. Starting Implementation of The Burger
+Builder Container 5min
+126. Adding a Dynamic Ingredient Component 8min
+127. Adding Prop Type Validation 3min
+128. Starting the Burger Component 7min
+129. Outputting Burger Ingredients
+Dynamically 10min
+130. Calculating the Ingredient Sum
+Dynamically 5min
+131. Adding the Build Control Component 7min
+132. Outputting Multiple Build Controls 4min
+133. Connecting State to Build Controls 8min
+134. Removing Ingredients Safely 8min
+135. Displaying and Updating the Burger Price 2min
+136. Adding the Order Button 11min
+137. Creating the Order Summary Modal 14min
+138. Showing & Hiding the Modal (with
+Animation!) 7min
+139. Implementing the Backdrop Component 8min
+140. Adding a Custom Button Component 5min
+141. Implementing the Button Component 5min
+142. Adding the Price to the Order Summary 2min
+143. Adding a Toolbar 9min
+144. Using a Logo in our Application 7min
+145. Adding Reusable Navigation Items 11min
+146. Creating a Responsive Sidedrawer 8min
+147. Working on Responsive Adjustments 5min
+148. More about Responsive Adjustments 7min
+149. Reusing the Backdrop 9min
+150. Adding a Sidedrawer Toggle Button 6min
+151. Adding a Hamburger Icon 2min
+152. Improving the App - Introduction 1min
+153. Prop Type Validation 1min
+154. Improving Performance 9min
+155. Using Component Lifecycle Methods 2min
+156. Changing the Folder Structure 5min
+157. Wrap Up 2min
+158. Useful Resources & Links 1min
+Section 9: Reaching out to the Web (Http
+/ Ajax)
+0 / 18|56min
+159. Module Introduction 1min
+160. Understanding Http Requests in React 2min
+161. Understanding our Project and
+Introducing Axios 4min
+162. Creating a Http Request to GET Data 5min
+163. Rendering Fetched Data to the Screen 4min
+164. Transforming Data 3min
+165. Making a Post Selectable 4min
+166. Fetching Data on Update (without
+Creating Infinite Loops) 8min
+167. POSTing Data to the Server 4min
+168. Sending a DELETE Request 2min
+169. Fixing a Bug 1min
+170. Handling Errors Locally 3min
+171. Adding Interceptors to Execute Code
+Globally 6min
+172. Removing Interceptors 1min
+173. Setting a Default Global Configuration for
+Axios 3min
+174. Creating and Using Axios Instances 5min
+175. Wrap Up 1min
+176. Useful Resources & Links 0min
+Section 10: Burger Builder Project:
+Accessing a Server
+0 / 10|57min
+177. Module Introduction 2min
+178. Firebase & The Right Database 1min
+179. Creating the Firebase Project 3min
+180. Creating the Axios Instance 3min
+181. Sending a POST Request 8min
+182. Displaying a Spinner while Sending a
+Request 9min
+183. Handling Errors 12min
+184. Retrieving Data from the Backend 11min
+185. Removing Old Interceptors 8min
+186. Useful Resources & Links 1min
+Section 11: Multi-Page-Feeling in a
+Single-Page-App: Routing
+0 / 34|2hr 3min
+187. Module Introduction 1min
+188. Routing and SPAs 3min
+189. Setting Up Links 4min
+190. Setting Up the Router Package 5min
+191. react-router vs react-router-dom 1min
+192. Preparing the Project For Routing 5min
+193. Setting Up and Rendering Routes 5min
+194. Rendering Components for Routes 2min
+195. Switching Between Pages 2min
+196. Using Links to Switch Pages 4min
+197. Using Routing-Related Props 3min
+198. The "withRouter" HOC & Route Props 4min
+199. Absolute vs Relative Paths 3min
+200. Absolute vs Relative Paths (Article) 1min
+201. Styling the Active Route 6min
+202. Passing Route Parameters 7min
+203. Extracting Route Parameters 3min
+204. Parsing Query Parameters & the
+Fragment 1min
+205. Using Switch to Load a Single Route 4min
+206. Navigating Programmatically 3min
+207. Additional Information Regarding Active
+Links 2min
+208. Understanding Nested Routes 8min
+209. Creating Dynamic Nested Routes 5min
+210. Redirecting Requests 3min
+211. Conditional Redirects 3min
+212. Using the History Prop to Redirect
+(Replace) 3min
+213. Working with Guards 4min
+214. Handling the 404 Case (Unknown
+Routes) 3min
+215. Loading Routes Lazily 12min
+216. Lazy Loading with React Suspense (16.6) 10min
+217. Routing and Server Deployment 4min
+Progress cannot be changed for this item
+Assignment 3: Time to Practice - Routing
+218. Wrap Up 1min
+219. Useful Resources & Links 1min
+Section 12: Adding Routing to our Burger
+Project
+0 / 14|1hr 19min
+220. Module Introduction 2min
+221. Building the Checkout Container 12min
+222. Setting Up Routing & Routes 5min
+223. Navigating to the Checkout Page 5min
+224. Navigating Back & To Next Page 4min
+225. Passing Ingredients via Query Params 5min
+226. Navigating to the Contact Data
+Component 10min
+227. Order Submission & Passing Data
+Between Pages 12min
+228. Adding an Orders Page 6min
+229. Implementing Navigation Links 6min
+230. Fetching Orders 6min
+231. Outputting the Orders 8min
+232. Wrap Up 1min
+233. Useful Resources & Links 1min
+Section 13: Forms and Form Validation
+0 / 17|1hr 12min
+234. Module Introduction 1min
+235. Analyzing the App 2min
+236. Creating a Custom Dynamic Input
+Component 12min
+237. Setting Up a JS Config for the Form 8min
+238. Dynamically Create Inputs based on JS
+Config 5min
+239. Adding a Dropdown Component 4min
+240. Handling User Input 8min
+241. Handling Form Submission 4min
+242. Adding Custom Form Validation 8min
+243. Fixing a Common Validation Gotcha 1min
+244. Adding Validation Feedback 5min
+245. Improving Visual Feedback 2min
+246. Showing Error Messages 1min
+247. Handling Overall Form Validity 8min
+248. Working on an Error 2min
+249. Fixing a Bug 1min
+250. Useful Resources & Links 1min
+Section 14: Redux
+0 / 24|2hr 1min
+251. Module Introduction 1min
+252. Understanding State 2min
+253. The Complexity of Managing State 3min
+254. Understanding the Redux Flow 5min
+255. Setting Up Reducer and Store 7min
+256. Dispatching Actions 7min
+257. Adding Subscriptions 3min
+258. Connecting React to Redux 4min
+259. Connecting the Store to React 8min
+260. Dispatching Actions from within the
+Component 6min
+Progress cannot be changed for this item
+Assignment 4: Time to Practice - Dispatching
+Actions
+261. Passing and Retrieving Data with Action 4min
+262. Switch-Case in the Reducer 3min
+263. Updating State Immutably 13min
+264. Updating Arrays Immutably 9min
+265. Immutable Update Patterns 3min
+266. Outsourcing Action Types 5min
+267. Combining Multiple Reducers 10min
+268. Understanding State Types 5min
+Progress cannot be changed for this item
+Assignment 5: Time to Practice - Redux
+Basics
+269. [OPTIONAL] Assignment Solution 14min
+270. Combining Local UI State and Redux 8min
+271. Wrap Up 2min
+272. Useful Resources & Links 1min
+Section 15: Adding Redux to our Project
+0 / 10|50min
+273. Module Introduction 5min
+274. Installing Redux and React Redux 4min
+275. Basic Redux Setup 2min
+276. Finishing the Reducer for Ingredients 7min
+277. Connecting the Burger Builder Container
+to our Store 10min
+278. Working on the Total Price Calculation 6min
+279. Redux & UI State 4min
+280. Adjusting Checkout and Contact Data 9min
+281. Wrap Up 3min
+282. Useful Resources & Links 1min
+Section 16: Redux Advanced
+0 / 16|1hr 9min
+283. Module Introduction 1min
+284. Adding Middleware 8min
+285. Using the Redux Devtools 8min
+286. Executing Asynchronous Code -
+Introduction 2min
+287. Introducing Action Creators 4min
+288. Action Creators & Async Code 6min
+289. Handling Asynchronous Code 8min
+290. Restructuring Actions 7min
+291. Where to Put Data Transforming Logic? 6min
+292. Using Action Creators and Get State 3min
+293. Using Utility Functions 7min
+294. A Leaner Switch Case Statement 3min
+295. An Alternative Folder Structure 2min
+296. Diving Much Deeper 2min
+297. Wrap Up 1min
+298. Useful Resources & Links 1min
+Section 17: Redux Advanced: Burger
+Project
+0 / 22|1hr 44min
+299. Module Introduction 1min
+300. Installing the Redux Devtools 3min
+301. Preparing the Folder Structure 3min
+302. Creating Action Creators 6min
+303. Executing Asynchronous Code 4min
+304. Fetching Ingredients Asynchronously 8min
+305. Initializing Ingredients in the
+BurgerBuilder 5min
+306. Changing the Order of our Ingredients
+Manually 2min
+307. Adding Order Actions 7min
+308. Connecting Contact Data Container &
+Actions 4min
+309. The Order Reducer 6min
+310. Working on Order Actions 4min
+311. Redirect to Improve UX 3min
+312. Combining Reducers 5min
+313. Handling Purchases & Updating the UI 9min
+314. Resetting the Price after Purchases 2min
+315. Fetching Orders (via Redux) 14min
+316. Checking our Implemented Functionalities 1min
+317. Refactoring Reducers 8min
+318. Refactoring Reducers Continued 8min
+319. Wrap Up 1min
+320. Useful Resources & Links 1min
+Section 18: Adding Authentication to our Burger Project 00/22 | 2hr 25min
+321. Module Introduction 1min
+322. Understanding Authentication in Single Page Applications 3min
+323. Required App Adjustments 1min
+324. Adding an Auth Form 13min
+325. Adding Actions 6min
+326. Getting a Token from the Backend 7min
+327. Adding Sign-In 6min
+328. Storing the Token 9min
+329. Adding a Spinner 6min
+330. Logging Users Out 7min
+331. Accessing Protected Resources 11min
+332. Updating the UI Depending on Auth State 8min
+333. Adding a Logout Link 7min
+334. Forwarding Unauthenticated Users 8min
+335. Redirecting the User to the Checkout Page 13min
+336. Persistent Auth State with localStorage 15min
+337. Fixing Connect + Routing Errors 7min
+338. Ensuring App Security 3min
+339. Guarding Routes 6min
+340. Displaying User Specific Orders 8min
+341. Wrap Up 1min
+342. Useful Resources & Links 1min
+Section 19: Improving our Burger Project 00/09 | 28min
+343. Module Introduction 1min
+344. Fixing the Redirect to the Frontpage 6min
+345. Using updateObject in the Entire App 7min
+346. Sharing the Validation Method 2min
+347. Using Environment Variables 3min
+348. Removing console.log()s 4min
+349. Adding Lazy Loading 5min
+350. Wrap Up 1min
+351. Useful Resources & Links 1min
+Section 20: Testing 00/12 | 49min
+352. Module Introduction 1min
+353. What is Testing? 3min
+354. Required Testing Tools 2min
+355. What To Test? 3min
+356. Writing our First Test 13min
+357. Testing Components Continued 4min
+358. Jest and Enzyme Documentations 6min
+359. Testing Components Correctly 2min
+360. Testing Containers 7min
+361. How to Test Redux 5min
+362. Wrap Up 1min
+363. Useful Resources & Links 1min
+Section 21: Deploying the App to the Web 00/06 | 11min
+364. Module Introduction 1min
+365. Deployment Steps 3min
+366. Building the Project 2min
+367. Example: Deploying on Firebase 4min
+368. Wrap Up 1min
+369. Useful Resources & Links 1min
+Section 22: Bonus: Working with Webpack 00/16 | 54min
+370. Module Introduction 1min
+371. DON'T SKIP: Webpack Versions 1min
+372. Introducing Webpack 1min
+373. How Webpack works 3min
+374. Basic Workflow Requirements 2min
+375. Project & npm Setup 4min
+376. Creating a Basic Folder & File Structure 3min
+377. Creating the Basic React Application 11min
+378. Installing Production Dependencies 1min
+379. Setting Up the Basic Webpack Config 7min
+380. Adding File Rules & Babel 7min
+381. Loading CSS Files 5min
+382. Loading Images & Injecting into HTML Page 6min
+383. Production Workflow & Wrap Up 3min
+384. Adding babel-polyfill 1min
+385. Useful Resources & Links 1min
+Section 23: Bonus: Next.js 00/10 | 35min
+386. Module Introduction 1min
+387. Understanding Server Side Rendering 3min
+388. Setting Up a Project 6min
+389. Understanding the Basics 4min
+390. Next.js & Components & Pages 3min
+391. Styling our App in Next.js 3min
+392. Handling (404) Errors 2min
+393. A Special Lifecycle Hook 10min
+394. Deploying our App 3min
+395. Useful Resources & Links 1min
+Section 24: Bonus: Animations in React Apps 00/016 | 1hr 8min
+396. Module Introduction 1min
+397. Preparing the Demo Project 6min
+398. Using CSS Transitions 5min
+399. Using CSS Animations 6min
+400. CSS Transition & Animations Limitations 4min
+401. Using ReactTransitionGroup 12min
+402. Using the Transition Component 3min
+403. Wrapping the Transition Component 3min
+404. Animation Timings 3min
+405. Transition Events 3min
+406. The CSSTransition Component 5min
+407. Customizing CSS Classnames 3min
+408. Animating Lists 7min
+409. Alternative Animation Packages 4min
+410. Wrap Up 2min
+411. Useful Resources & Links 1min
+Section 25: Bonus: A Brief Introduction to Redux Saga 00/13 | 1hr 16min
+412. Module Introduction 1min
+413. Installing Redux Saga 3min
+414. Creating our First Saga 6min
+415. Hooking the Saga Up (to the Store and Actions) 5min
+416. Moving Logic from the Action Creator to a Saga 6min
+417. Moving More Logic Into Sagas 10min
+418. Handling Authentication with a Saga 11min
+419. Handling Auto-Sign-In with a Saga 6min
+420. Moving the BurgerBuilder Side Effects into a Saga 7min
+421. Moving the Orders Side Effects into Sagas 13min
+422. Why Sagas can be Helpful 1min
+423. Diving Deeper into Sagas 7min
+424. Useful Resources & Links 1min
+Section 26: React Hooks 00/28 | 3hr 3min
+425. Introduction 1min
+426. What are "React Hooks"? 7min
+427. The Starting Project 5min
+428. Getting Started with useState() 9min
+429. More on useState() & State Updating 12min
+430. Array Destructuring 3min
+431. Multiple States 4min
+432. Rules of Hooks 2min
+433. Passing State Data Across Components 8min Progress cannot be changed for this item
+Assignment 6: Time to Practice: Hooks Basics
+434. Sending Http Requests 7min
+435. useEffect() & Loading Data 8min
+436. Understanding useEffect() Dependencies 2min
+437. More on useEffect() 10min
+438. What's useCallback()? 5min
+439. Working with Refs & useRef() 5min
+440. Cleaning Up with useEffect() 3min
+441. Deleting Ingredients 2min
+442. Loading Errors & State Batching 9min
+443. More on State Batching & State Updates 1min
+444. Understanding useReducer() 10min
+445. Using useReducer() for the Http State 11min
+446. Working with useContext() 8min
+447. Performance Optimizations with useMemo() 11min
+448. Getting Started with Custom Hooks 14min
+449. Sharing Data Between Custom Hooks & Components 15min
+450. Using the Custom Hook 8min
+451. Wrap Up 3min
+Section 27: Using Hooks in the Burger Builder 00/15 | 1hr 5min
+452. Introduction 1min
+453. Converting <App> 3min
+454. Routing with React.lazy() 4min
+455. Converting the Layout Component 3min
+456. Converting withErrorHandler HOC 5min
+457. Adjusting the Order & Checkout Containers 4min
+458. Add Hooks to ContactData 6min
+459. Converting the BurgerBuilder Container 4min
+460. Adjusting Auth & Logout Components 6min
+461. Using React.memo() & More! 5min
+462. Adding a Custom Error Handling Hook 6min
+463. Setting the right useEffect() Dependencies 5min
+464. Working with useSelector() and useDispatch() 12min
+465. Wrap Up 1min
+466. Useful Resources & Links 1min
+Section 28: Bonus: Replacing Redux with React Hooks 0 / 14|54min
+467. Module Introduction 1min
+468. Starting Project & Why You Would Replace Redux 4min
+469. Alternative: Using the Context API 7min
+470. Toggling Favorites with the Context API 6min
+471. Context API Summary (and why NOT to use it instead of Redux) 3min
+472. Getting Started with a Custom Hook as a Store 8min
+473. Finishing the Store Hook 6min
+474. Creating a Concrete Store 4min
+475. Using the Custom Store 6min
+476. Custom Hook Store Summary 3min
+477. Optimizing the Custom Hook Store 4min
+478. Bonus: Managing Multiple State Slices with the Custom Store Hook 1min
+479. Wrap Up 2min
+480. Useful Resources & Links 1min
+Section 29: Bonus: Building the Burger CSS 00/01 | 25min
+481. Building the Burger CSS Code 25min
+Section 30: Next Steps and Course Roundup 00/10 | 22min
+482. Module Introduction 1min
+483. React Rocks! Where to find more Examples 1min
+484. More Inspiration: Real-World Projects Built with React 1min
+485. Static React Apps with Gatsby.js 3min
+486. Introducing React Native 2min
+487. Component Libraries (Example: Material UI) 3min
+488. Smaller Apps with Preact 3min
+489. Comparing React with Preact 6min
+490. Congratulations 1min
+491. Bonus: More Content! 1min
