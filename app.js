@@ -28,10 +28,15 @@ function loadPaidTopics() {
         if (topic == sections[topicIndex]) {
             topicVolume = 0;
             topicIndex++;
-            console.log(topic, topicVolume);
+            // console.log(topic, topicVolume);
+            topicItem.section = topic;
+            topicItem.topic = topic;
+            console.log('topicItem', topicItem);
         } else {
             topicVolume++;
-            console.log('topic', topic, 'topicVolume', topicVolume);
+            // console.log('topic', topic, 'topicVolume', topicVolume);
+            topicItem.topic = topic;
+            console.log('topicItem', topicItem);
         }
 
     })
