@@ -35,7 +35,24 @@ function meldTopics(paid, free) {
             // console.log(pstTextMatch);
 
             (pstTextMatch == null) ? paidText = 'PROBLEM' : paidText = pstTextMatch[2].trim();
-            console.log('paidText', paidText);
+            // console.log('paidText', paidText);
+
+            free.map((freeTopic) => {
+                const fstTextRegex = /(.*)([0-9][0-9]:[0-9][0-9])/; // g deleted
+                let   fstTextMatch = freeTopic.match(fstTextRegex);
+
+                // console.log('fstTextMatch', fstTextMatch);
+
+                (fstTextMatch == null) ? freeText = 'PROBLEM' : freeText = fstTextMatch[1].trim();
+                // console.log('freeText', freeText);
+
+                if (paidText == freeText) {
+
+                    console.log('freeText', freeText);
+
+                }
+
+            });
 
         });
 
