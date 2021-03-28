@@ -19,61 +19,51 @@ function loadInfo() {
 }
 
 function meldTopics(paid, free) {
+
+    // List of arrays
+    let p = paid.map((paidTopic, index) => {       
+        // console.log('pt', paidTopic.topics);
+        return paidTopic.topics;
+    });
+    // console.log('p', p);
     
-    let paidText = '';
-    console.log('paid.length', paid.length);
+    p.forEach((pTopicArray) => {
+
+        console.log('pTopic', pTopicArray);
+
+        pTopicArray.forEach((pTopic) => {
+
+            // console.log('pTopic', pTopic);
+
+            let paidText = pTopic;
+
+            free.forEach((fTopic) => {
+            
+                let ftTextRegex = /(.*)([0-9][0-9]:[0-9][0-9])/; // no g
+                let ftTextMatch = fTopic.match(ftTextRegex);
+                
+                if (!ftTextMatch) { 
+                    
+                } else {
+
+                    let freeText = ftTextMatch[1];
+                    let freeTime = ftTextMatch[0];
+                    
+                    if (pTopic.indexOf(freeText) != -1) {
+                        console.log(`${ paidText } | ${ freeText } | ${ freeTime }`);
+                    } else {
+                        // console.log('PROBLEM: Inexact match - freeText', freeText);
+                    }
     
-    paid.map((section) => {
-
-        console.log('section.length', section.topics.length);
-
-        section.topics.map((sectionTopic) => {
-
-            const pstTextRegex = /([0-9][0-9][0-9]\.)(.*)(\d{1,2}min)/; // g deleted
-            let   pstTextMatch = sectionTopic.match(pstTextRegex);
-
-            // console.log(pstTextMatch);
-
-            (pstTextMatch == null) ? paidText = 'PROBLEM' : paidText = pstTextMatch[2].trim();
-            // console.log('paidText', paidText);
-
-            free.map((freeTopic) => {
-                const fstTextRegex = /(.*)([0-9][0-9]:[0-9][0-9])/; // g deleted
-                let   fstTextMatch = freeTopic.match(fstTextRegex);
-
-                // console.log('fstTextMatch', fstTextMatch);
-
-                (fstTextMatch == null) ? freeText = 'PROBLEM' : freeText = fstTextMatch[1].trim();
-                // console.log('freeText', freeText);
-
-                if (paidText == freeText) {
-
-                    console.log('freeText', freeText);
-
                 }
-
+    
             });
 
         });
 
     });
-    
-    // let paidText = '';
 
-    // const ptTextRegex = /([0-9][0-9][0-9])(.*)(\d{1,2}min)/g;
-    // let   ptTextMatch = p.match(ptTextRegex);
-    // (ptTextMatch == null) ? paidText = 'PROBLEM' : paidText = ptTextMatch[2];
-
-    // let paidArray = paid.map((topics) => {
-    //     console.log('topics.topics', topics.topics);
-    //     return topics.topics;
-    // });
-
-    // let freeArray = free.map((topics) => {
-    //     console.log('topics', topics);
-    //     return topics;
-    // });
-
+    console.log('Done');
 }
 
 function loadFreeTopics() {
@@ -99,6 +89,10 @@ function loadPaidTopics() {
     let sectionsArray = [];
 
     paidTopicsArray.forEach((topic) => {
+ 
+        // let ptTextRegex = /([0-9][0-9][0-9]\.)(.*)(\d{1,2}min)/;
+        // let ptTextMatch = pTopic.match(ptTextRegex);
+
         if (topic == sections[sectionIndex]) {
             section = {
                 section: sections[sectionIndex],
