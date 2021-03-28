@@ -16,6 +16,8 @@ function loadInfo() {
 
     const mixdTopics = meldTopics(paidTopics, freeTopics);
 
+
+
 }
 
 function meldTopics(paid, free) {
@@ -34,8 +36,12 @@ function meldTopics(paid, free) {
         pTopicArray.forEach((pTopic) => {
 
             // console.log('pTopic', pTopic);
+            let ptTextRegex = /([0-9][0-9][0-9]\.)(.*)(\d{1,2}min)/;
+            let ptTextMatch = pTopic.match(ptTextRegex);
 
-            let paidText = pTopic;
+            let paidIndx = ptTextMatch[1];
+            let paidText = ptTextMatch[2];
+            let paidTime = ptTextRegex[3];
 
             free.forEach((fTopic) => {
             
@@ -47,10 +53,11 @@ function meldTopics(paid, free) {
                 } else {
 
                     let freeText = ftTextMatch[1];
-                    let freeTime = ftTextMatch[0];
+                    let freeTime = ftTextMatch[2];
                     
                     if (pTopic.indexOf(freeText) != -1) {
-                        console.log(`${ paidText } | ${ freeText } | ${ freeTime }`);
+                        // console.log(`${ paidText } | ${ freeText } | ${ freeTime }`);
+                        console.log(`${ paidIndx } | ${ paidText } | ${ freeTime }`);
                     } else {
                         // console.log('PROBLEM: Inexact match - freeText', freeText);
                     }
