@@ -6,6 +6,8 @@ freeTopics.value = 'Hello';
 const processButton = document.querySelector('#process-topics');
 processButton.addEventListener('click', loadInfo);
 
+const listElement = document.querySelector('#fpt-list');
+
 function loadInfo() {
 
     const paidTopics = loadPaidTopics();
@@ -16,11 +18,31 @@ function loadInfo() {
 
     const mixdTopics = meldTopics(paidTopics, freeTopics);
 
+    const present = presentTopics(mixdTopics);
 
+    console.log(present);
+
+}
+
+function presentTopics(formattedTopics) {
+
+    console.log('formattedTopics', formattedTopics);
+
+    formattedTopics.forEach((topic) => {
+
+        const listItemText = document.createTextNode(`${ topic }`);
+        const listItem     = document.createElement('li');
+    
+        listItem.appendChild(listItemText);
+        listElement.appendChild(listItem);
+
+    });
 
 }
 
 function meldTopics(paid, free) {
+    
+    let finalData = [];
 
     // List of arrays
     let p = paid.map((paidTopic, index) => {       
@@ -58,6 +80,7 @@ function meldTopics(paid, free) {
                     if (pTopic.indexOf(freeText) != -1) {
                         // console.log(`${ paidText } | ${ freeText } | ${ freeTime }`);
                         console.log(`${ paidIndx } | ${ paidText } | ${ freeTime }`);
+                        finalData.push(`${ paidIndx } | ${ paidText } | ${ freeTime }`);
                     } else {
                         // console.log('PROBLEM: Inexact match - freeText', freeText);
                     }
@@ -70,6 +93,7 @@ function meldTopics(paid, free) {
 
     });
 
+    return finalData;
     console.log('Done');
 }
 
@@ -81,7 +105,6 @@ function loadFreeTopics() {
     return freeTopicsArray;
 }
 
-const listElement = document.querySelector('#fpt-list');
 
 function loadPaidTopics() {
 
