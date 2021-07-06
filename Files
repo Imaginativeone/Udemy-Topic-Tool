@@ -1,0 +1,561 @@
+- [ ] Section 01: Getting Started 11/11 | 40min
+  - [ ] 001. | Introduction | 01:49
+  - [ ] 002. | What is React? | 02:56
+  - [ ] 003. | Join our Online Learning Community | 00:21
+  - [ ] 004. | Real-World SPAs & React Web Apps | 02:28
+  - [ ] 005. | Writing Our First React Code 1 | 15:07
+  - [ ] 006. | Why Should We Choose React? | 02:03
+  - [ ] 007. | React Alternatives | 01:11
+  - [ ] 008. | Understanding Single Page Applications and Multi Page Applications | 03:38
+  - [ ] 009. | Course Outline | 07:28
+  - [ ] 010. | How to Get the Most Out of This Course | 02:29
+  - [ ] 011. | Useful Resources and Links | 00:08
+  - [ ] 
+- [ ] Section 02: Refreshing Next Generation JavaScript (Optional) 11/13 | 44min
+  - [ ] 012. | Module Introduction | 01:35
+  - [ ] 013. | Understanding "let" and "const" | 03:05
+  - [ ] 014. | Arrow Functions | 05:27
+  - [ ] 015. | Exports and Imports | 04:43
+  - [ ] 016. | Understanding Classes | 04:37
+  - [ ] 017. | Classes, Properties and Methods | 03:03
+  - [ ] 018. | The Spread & Rest Operator | 06:30
+  - [ ] 019. | Destructuring | 03:13
+  - [ ] 020. | Reference and Primitive Types Refresher | 04:26
+  - [ ] 021. | Refreshing Array Functions | 02:45
+  - [ ] 022. | Wrap Up | 00:52
+  - [ ] 023. | Next-Gen JavaScript - Summary | 03:51
+  - [ ] 024. | JS Array Functions | 00:20
+  - [ ] 
+- [ ] Section 03: Understanding the Base Features & Syntax 23/28 | 2hr 21min
+  - [ ] 025. | Module Introduction | 00:38
+  - [ ] 026. | The Build Workflow | 08:00
+  - [ ] 027. | Using Create React App | 06:09
+  - [ ] 028. | Understanding the Folder Structure | 08:11
+  - [ ] 029. | Understanding Component Basics | 05:32
+  - [ ] 030. | Understanding JSX | 05:38
+  - [ ] 031. | JSX Restrictions | 03:09
+  - [ ] 032. | Creating a Functional Component | 08:09
+  - [ ] 033. | Components & JSX Cheat Sheet | 00:52
+  - [ ] 034. | Working with Components & Re-Using Them | 01:47
+  - [ ] 035. | Outputting Dynamic Content | 03:02
+  - [ ] 036. | Working with Props | 04:07
+  - [ ] 037. | Understanding the "children" Prop | 02:56
+  - [ ] 038. | Understanding & Using State | 07:17
+  - [ ] 039. | Props & State | 01:34
+  - [ ] 040. | Handling Events with Methods | 03:45
+  - [ ] 041. | To Which Events Can You Listen? | 01:20
+  - [ ] 042. | Manipulating the State | 05:03
+  - [ ] 043. | Function Components Naming | 00:26
+  - [ ] 044. | Using the useState() Hook for State Manipulation 1 | 13:51
+  - [ ] 045. | Stateless vs Stateful Components | 03:08
+  - [ ] 046. | Passing Method References Between Components | 07:05
+  - [ ] 047. | Adding Two Way Binding | 06:51
+  - [ ] 048. | Adding Styling with Stylesheets | 05:28
+  - [ ] 049. | Working with Inline Styles | 04:15
+  - [ ] 000. | Assignment 1: Time to Practice - The Base Syntax 2 | 23:00
+  - [ ] 050. | [OPTIONAL] Assignment Solution 2 | 22:28
+  - [ ] 051. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 04: Working with Lists and Conditionals 09/13 | 1hr 1min
+  - [ ] 052. | Module Introduction | 01:03
+  - [ ] 053. | Rendering Content Conditionally 1 | 10:09
+  - [ ] 054. | Handling Dynamic Content "The JavaScript Way" | 04:49
+  - [ ] 055. | Outputting Lists (Intro) | 01:31
+  - [ ] 055. | Outputting Lists (Intro) | 05:32
+  - [ ] 056. | Outputting Lists | 05:32
+  - [ ] 057. | Lists & State | 04:12
+  - [ ] 058. | Updating State Immutably | 02:39
+  - [ ] 059. | Lists & Keys | 04:14
+  - [ ] 060. | Flexible Lists | 07:34
+  - [ ] 061. | Wrap Up | 01:55
+  - [ ] 000. | Assignment 2: Time to Practice - Lists & Conditionals 1 | 17:17
+  - [ ] 062. | [OPTIONAL] Assignment Solution 1 | 17:17
+  - [ ] 063. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 05: Styling React Components & Elements 11/13 | 1hr 5min
+  - [ ] 064. | Module Introduction | 01:19
+  - [ ] 065. | Outlining the Problem Set | 01:58
+  - [ ] 066. | Setting Styles Dynamically | 03:19
+  - [ ] 067. | Setting Class Names Dynamically | 07:09
+  - [ ] 068. | Adding and Using Radium | 07:00
+  - [ ] 069. | Using Radium for Media Queries | 05:02
+  - [ ] 070. | Introducing Styled Components | 08:16
+  - [ ] 071. | More on Styled Components | 05:51
+  - [ ] 072. | Styled Components & Dynamic Styles | 05:27
+  - [ ] 073. | Working with CSS Modules 1 | 15:21
+  - [ ] 074. | CSS Modules & Media Queries | 03:15
+  - [ ] 075. | More on CSS Modules | 01:02
+  - [ ] 076. | Useful Resources & Links | 00:03
+  - [ ] 
+- [ ] Section 06: Debugging React Apps 06/07 | 20min
+  - [ ] 077. | Module Introduction | 00:55
+  - [ ] 078. | Understanding Error Messages | 02:37
+  - [ ] 079. | Finding Logical Errors by using Dev Tools & Sourcemaps | 04:17
+  - [ ] 080. | Working with the React Developer Tools | 03:06
+  - [ ] 081. | Using Error Boundaries (React 16+) | 08:13
+  - [ ] 082. | Wrap Up | 00:57
+  - [ ] 083. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 07: Diving Deeper into Components & React Internals 32/33 | 2hr 54min
+  - [ ] 084. | Module Introduction | 00:43
+  - [ ] 085. | A Better Project Structure | 07:24
+  - [ ] 086. | Splitting an App Into Components 1 | 15:54
+  - [ ] 087. | Comparing Stateless and Stateful Components | 03:46
+  - [ ] 088. | Class-based vs Functional Components | 05:15
+  - [ ] 089. | class Component Lifecycle Overview | 05:04
+  - [ ] 090. | Component Creation Lifecycle in Action | 06:46
+  - [ ] 091. | Component Update Lifecycle (for props Changes) 1 | 15:36
+  - [ ] 092. | Component Update Lifecycle (for state Changes) | 03:49
+  - [ ] 093. | Using useEffect() in Functional Components | 03:46
+  - [ ] 094. | Controlling the useEffect() Behavior | 03:40
+  - [ ] 095. | Cleaning up with Lifecycle Hooks & useEffect() | 06:48
+  - [ ] 096. | Cleanup Work with useEffect() - Example | 01:37
+  - [ ] 097. | Using shouldComponentUpdate for Optimization | 06:45
+  - [ ] 098. | Optimizing Functional Components with React.memo() | 03:39
+  - [ ] 099. | When should you optimize? | 02:18
+  - [ ] 100. | PureComponents instead of shouldComponentUpdate | 03:35
+  - [ ] 101. | How React Updates the DOM | 04:27
+  - [ ] 102. | Rendering Adjacent JSX Elements | 09:00
+  - [ ] 103. | Windows Users Must Read | 00:46
+  - [ ] 104. | Using React.Fragment | 01:29
+  - [ ] 105. | Higher Order Components (HOC) - Introduction | 04:20
+  - [ ] 106. | Another Form of HOCs | 05:56
+  - [ ] 107. | Passing Unknown Props | 04:58
+  - [ ] 108. | Setting State Correctly | 05:13
+  - [ ] 109. | Using PropTypes | 06:53
+  - [ ] 110. | Using Refs | 07:37
+  - [ ] 111. | Refs with React Hooks | 04:34
+  - [ ] 112. | Understanding Prop Chain Problems | 04:56
+  - [ ] 113. | Using the Context API 1 | 10:03
+  - [ ] 114. | contextType & useContext() | 05:33
+  - [ ] 115. | Wrap Up | 01:21
+  - [ ] 116. | Useful Resources & Links | 00:03
+  - [ ] 
+- [ ] Section 08: A Real App: The Burger Builder (Basic Version) 07/42 | 4hr
+  - [ ] 117. | About React Hooks | 00:14
+  - [ ] 118. | Module Introduction | 00:57
+  - [ ] 119. | Planning an App in React - Core Steps | 02:32
+  - [ ] 120. | Planning our App - Layout and Component Tree 1 | 10:57
+  - [ ] 121. | Planning the State | 04:13
+  - [ ] 122. | MUST READ: Enabling CSS Modules | 01:25
+  - [ ] 123. | Setting up the Project | 05:01
+  - [ ] 124. | Creating a Layout Component 1 | 10:01
+  - [ ] 125. | Starting Implementation of The Burger Builder Container | 05:04
+  - [ ] 126. | Adding a Dynamic Ingredient Component | 08:27
+  - [ ] 127. | Adding Prop Type Validation | 02:49
+  - [ ] 127. | Adding Prop Type Validation | 01:17
+  - [ ] 128. | Starting the Burger Component | 06:49
+  - [ ] 129. | Outputting Burger Ingredients Dynamically 1 | 09:44
+  - [ ] 130. | Calculating the Ingredient Sum Dynamically | 05:10
+  - [ ] 131. | Adding the Build Control Component | 07:26
+  - [ ] 132. | Outputting Multiple Build Controls | 04:03
+  - [ ] 133. | Connecting State to Build Controls | 08:22
+  - [ ] 134. | Removing Ingredients Safely | 07:30
+  - [ ] 135. | Displaying and Updating the Burger Price | 02:28
+  - [ ] 136. | Adding the Order Button 1 | 10:39
+  - [ ] 137. | Creating the Order Summary Modal 1 | 13:58
+  - [ ] 138. | Showing & Hiding the Modal (with Animation!) | 06:59
+  - [ ] 139. | Implementing the Backdrop Component | 08:22
+  - [ ] 140. | Adding a Custom Button Component | 04:46
+  - [ ] 141. | Implementing the Button Component | 04:54
+  - [ ] 142. | Adding the Price to the Order Summary | 02:05
+  - [ ] 143. | Adding a Toolbar | 09:11
+  - [ ] 144. | Using a Logo in our Application | 06:40
+  - [ ] 145. | Adding Reusable Navigation Items 1 | 11:26
+  - [ ] 146. | Creating a Responsive Sidedrawer | 07:44
+  - [ ] 147. | Working on Responsive Adjustments | 04:34
+  - [ ] 148. | More about Responsive Adjustments | 07:18
+  - [ ] 149. | Reusing the Backdrop | 09:11
+  - [ ] 150. | Adding a Sidedrawer Toggle Button | 06:27
+  - [ ] 151. | Adding a Hamburger Icon | 02:20
+  - [ ] 152. | Improving the App - Introduction | 01:11
+  - [ ] 153. | Prop Type Validation | 01:17
+  - [ ] 154. | Improving Performance | 08:48
+  - [ ] 155. | Using Component Lifecycle Methods | 01:48
+  - [ ] 156. | Changing the Folder Structure | 04:57
+  - [ ] 157. | Wrap Up | 01:49
+  - [ ] 158. | Useful Resources & Links | 00:04
+  - [ ] 
+- [ ] Section 09: Reaching out to the Web (Http/Ajax) 00/18 | 56min
+  - [ ] 159. | Module Introduction | 01:03
+  - [ ] 160. | Understanding Http Requests in React | 01:35
+  - [ ] 161. | Understanding our Project and Introducing Axios | 04:15
+  - [ ] 162. | Creating a Http Request to GET Data | 05:29
+  - [ ] 163. | Rendering Fetched Data to the Screen | 03:46
+  - [ ] 164. | Transforming Data | 02:40
+  - [ ] 165. | Making a Post Selectable | 04:01
+  - [ ] 166. | Fetching Data on Update (without Creating Infinite Loops) | 07:56
+  - [ ] 167. | POSTing Data to the Server | 03:52
+  - [ ] 168. | Sending a DELETE Request | 02:23
+  - [ ] 169. | Fixing a Bug | 00:33
+  - [ ] 170. | Handling Errors Locally | 03:23
+  - [ ] 171. | Adding Interceptors to Execute Code Globally | 06:18
+  - [ ] 172. | Removing Interceptors | 00:10
+  - [ ] 173. | Setting a Default Global Configuration for Axios | 03:10
+  - [ ] 174. | Creating and Using Axios Instances | 05:03
+  - [ ] 175. | Wrap Up | 00:47
+  - [ ] 176. | Useful Resources & Links | 00:00
+  - [ ] 
+- [ ] Section 10: Burger Builder Project: Accessing a Server 00/10 | 57min
+  - [ ] 177. | Module Introduction | 01:52
+  - [ ] 178. | Firebase & The Right Database | 00:05
+  - [ ] 179. | Creating the Firebase Project | 03:26
+  - [ ] 180. | Creating the Axios Instance | 02:42
+  - [ ] 181. | Sending a POST Request | 07:46
+  - [ ] 182. | Displaying a Spinner while Sending a Request | 09:20
+  - [ ] 183. | Handling Errors 1 | 12:04
+  - [ ] 184. | Retrieving Data from the Backend 1 | 11:22
+  - [ ] 185. | Removing Old Interceptors | 08:24
+  - [ ] 186. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 11: Multi-Page-Feeling in a Single-Page-App: Routing 00/34 | 2hr 3min
+  - [ ] 187. | Module Introduction | 00:51
+  - [ ] 188. | Routing and SPAs | 02:43
+  - [ ] 189. | Setting Up Links | 04:22
+  - [ ] 190. | Setting Up the Router Package | 04:46
+  - [ ] 191. | react-router vs react-router-dom | 00:21
+  - [ ] 192. | Preparing the Project For Routing | 05:13
+  - [ ] 193. | Setting Up and Rendering Routes | 05:18
+  - [ ] 194. | Rendering Components for Routes | 01:57
+  - [ ] 195. | Switching Between Pages | 02:17
+  - [ ] 196. | Using Links to Switch Pages | 04:03
+  - [ ] 197. | Using Routing-Related Props | 03:12
+  - [ ] 198. | The "withRouter" HOC & Route Props | 03:44
+  - [ ] 199. | Absolute vs Relative Paths | 02:34
+  - [ ] 200. | Absolute vs Relative Paths (Article) | 02:34
+  - [ ] 200. | Absolute vs Relative Paths (Article) | 01:01
+  - [ ] 201. | Styling the Active Route | 05:55
+  - [ ] 202. | Passing Route Parameters | 06:54
+  - [ ] 203. | Extracting Route Parameters | 03:03
+  - [ ] 204. | Parsing Query Parameters & the Fragment | 00:55
+  - [ ] 205. | Using Switch to Load a Single Route | 03:33
+  - [ ] 206. | Navigating Programmatically | 03:25
+  - [ ] 207. | Additional Information Regarding Active Links | 02:22
+  - [ ] 208. | Understanding Nested Routes | 07:55
+  - [ ] 209. | Creating Dynamic Nested Routes | 04:38
+  - [ ] 210. | Redirecting Requests | 02:45
+  - [ ] 211. | Conditional Redirects | 02:47
+  - [ ] 212. | Using the History Prop to Redirect (Replace) | 02:49
+  - [ ] 213. | Working with Guards | 03:46
+  - [ ] 214. | Handling the 404 Case (Unknown Routes) | 03:02
+  - [ ] 215. | Loading Routes Lazily 1 | 11:49
+  - [ ] 216. | Lazy Loading with React Suspense (16.6) 1 | 09:47
+  - [ ] 217. | Routing and Server Deployment | 04:19
+  - [ ] 000. | Assignment 3: Time to Practice - Routing | 04:00
+  - [ ] 218. | Wrap Up | 00:49
+  - [ ] 219. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 12: Adding Routing to our Burger Project 00/14 | 1hr 19min
+  - [ ] 220. | Module Introduction | 01:35
+  - [ ] 221. | Building the Checkout Container 1 | 11:32
+  - [ ] 222. | Setting Up Routing & Routes | 04:41
+  - [ ] 223. | Navigating to the Checkout Page | 04:50
+  - [ ] 224. | Navigating Back & To Next Page | 03:33
+  - [ ] 225. | Passing Ingredients via Query Params | 05:27
+  - [ ] 226. | Navigating to the Contact Data Component 1 | 09:33
+  - [ ] 227. | Order Submission & Passing Data Between Pages 1 | 11:44
+  - [ ] 228. | Adding an Orders Page | 05:34
+  - [ ] 229. | Implementing Navigation Links | 05:35
+  - [ ] 230. | Fetching Orders | 06:03
+  - [ ] 231. | Outputting the Orders | 07:34
+  - [ ] 232. | Wrap Up | 01:07
+  - [ ] 233. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 13: Forms and Form Validation 00/17 | 1hr 12min
+  - [ ] 234. | Module Introduction | 00:49
+  - [ ] 235. | Analyzing the App | 01:49
+  - [ ] 236. | Creating a Custom Dynamic Input Component 1 | 11:30
+  - [ ] 237. | Setting Up a JS Config for the Form | 07:34
+  - [ ] 238. | Dynamically Create Inputs based on JS Config | 05:23
+  - [ ] 239. | Adding a Dropdown Component | 03:52
+  - [ ] 240. | Handling User Input | 07:43
+  - [ ] 241. | Handling Form Submission | 04:11
+  - [ ] 242. | Adding Custom Form Validation | 08:09
+  - [ ] 243. | Fixing a Common Validation Gotcha | 01:18
+  - [ ] 244. | Adding Validation Feedback | 05:12
+  - [ ] 245. | Improving Visual Feedback | 02:18
+  - [ ] 246. | Showing Error Messages | 00:37
+  - [ ] 247. | Handling Overall Form Validity | 07:35
+  - [ ] 248. | Working on an Error | 02:09
+  - [ ] 249. | Fixing a Bug | 01:26
+  - [ ] 250. | Useful Resources & Links | 00:08
+  - [ ] 
+- [ ] Section 14: Redux 00/24 | 2hr 1min
+  - [ ] 251. | Module Introduction | 01:00
+  - [ ] 252. | Understanding State | 01:50
+  - [ ] 253. | The Complexity of Managing State | 02:42
+  - [ ] 254. | Understanding the Redux Flow | 05:17
+  - [ ] 255. | Setting Up Reducer and Store | 07:09
+  - [ ] 256. | Dispatching Actions | 06:44
+  - [ ] 257. | Adding Subscriptions | 02:47
+  - [ ] 258. | Connecting React to Redux | 03:39
+  - [ ] 259. | Connecting the Store to React | 08:19
+  - [ ] 260. | Dispatching Actions from within the Component | 06:44
+  - [ ] 260. | Dispatching Actions from within the Component | 05:53
+  - [ ] 000. | Assignment 4: Time to Practice - Dispatching Actions | 06:44
+  - [ ] 000. | Assignment 4: Time to Practice - Dispatching Actions | 05:53
+  - [ ] 261. | Passing and Retrieving Data with Action | 04:06
+  - [ ] 262. | Switch-Case in the Reducer | 03:00
+  - [ ] 263. | Updating State Immutably 1 | 13:20
+  - [ ] 264. | Updating Arrays Immutably | 08:39
+  - [ ] 265. | Immutable Update Patterns | 02:39
+  - [ ] 266. | Outsourcing Action Types | 05:19
+  - [ ] 267. | Combining Multiple Reducers 1 | 10:18
+  - [ ] 268. | Understanding State Types | 01:50
+  - [ ] 268. | Understanding State Types | 04:50
+  - [ ] 269. | [OPTIONAL] Assignment Solution 1 | 14:23
+  - [ ] 270. | Combining Local UI State and Redux | 07:39
+  - [ ] 271. | Wrap Up | 01:42
+  - [ ] 272. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 15: Adding Redux to our Project 0/10 | 50min
+  - [ ] 273. | Module Introduction | 05:26
+  - [ ] 274. | Installing Redux and React Redux | 04:08
+  - [ ] 275. | Basic Redux Setup | 02:10
+  - [ ] 276. | Finishing the Reducer for Ingredients | 06:35
+  - [ ] 277. | Connecting the Burger Builder Container to our Store 1 | 09:33
+  - [ ] 278. | Working on the Total Price Calculation | 06:05
+  - [ ] 279. | Redux & UI State | 04:08
+  - [ ] 280. | Adjusting Checkout and Contact Data | 09:10
+  - [ ] 281. | Wrap Up | 02:38
+  - [ ] 282. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 16: Redux Advanced 00/16 | 1hr 9min
+  - [ ] 283. | Module Introduction | 00:28
+  - [ ] 284. | Adding Middleware | 07:47
+  - [ ] 285. | Using the Redux Devtools | 07:32
+  - [ ] 286. | Executing Asynchronous Code - Introduction | 01:52
+  - [ ] 287. | Introducing Action Creators | 04:11
+  - [ ] 288. | Action Creators & Async Code | 06:20
+  - [ ] 289. | Handling Asynchronous Code | 08:13
+  - [ ] 290. | Restructuring Actions | 06:55
+  - [ ] 291. | Where to Put Data Transforming Logic? | 05:42
+  - [ ] 292. | Using Action Creators and Get State | 03:27
+  - [ ] 293. | Using Utility Functions | 07:20
+  - [ ] 294. | A Leaner Switch Case Statement | 03:14
+  - [ ] 295. | An Alternative Folder Structure | 02:22
+  - [ ] 296. | Diving Much Deeper | 02:07
+  - [ ] 297. | Wrap Up | 01:00
+  - [ ] 298. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 17: Redux Advanced: Burger Project 00/22 | 1hr 44min
+  - [ ] 299. | Module Introduction | 01:12
+  - [ ] 300. | Installing the Redux Devtools | 02:56
+  - [ ] 301. | Preparing the Folder Structure | 03:06
+  - [ ] 302. | Creating Action Creators | 06:15
+  - [ ] 303. | Executing Asynchronous Code | 04:05
+  - [ ] 304. | Fetching Ingredients Asynchronously | 07:50
+  - [ ] 305. | Initializing Ingredients in the BurgerBuilder | 05:18
+  - [ ] 306. | Changing the Order of our Ingredients Manually | 02:12
+  - [ ] 307. | Adding Order Actions | 06:40
+  - [ ] 308. | Connecting Contact Data Container & Actions | 04:18
+  - [ ] 309. | The Order Reducer | 05:30
+  - [ ] 310. | Working on Order Actions | 04:28
+  - [ ] 311. | Redirect to Improve UX | 03:08
+  - [ ] 312. | Combining Reducers | 04:53
+  - [ ] 313. | Handling Purchases & Updating the UI | 08:34
+  - [ ] 314. | Resetting the Price after Purchases | 01:44
+  - [ ] 315. | Fetching Orders (via Redux) 1 | 13:45
+  - [ ] 316. | Checking our Implemented Functionalities | 01:23
+  - [ ] 317. | Refactoring Reducers | 08:11
+  - [ ] 318. | Refactoring Reducers Continued | 08:11
+  - [ ] 318. | Refactoring Reducers Continued | 07:55
+  - [ ] 319. | Wrap Up | 00:57
+  - [ ] 320. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 18: Adding Authentication to our Burger Project 00/22 | 2hr 25min
+  - [ ] 321. | Module Introduction | 01:14
+  - [ ] 322. | Understanding Authentication in Single Page Applications | 03:01
+  - [ ] 323. | Required App Adjustments | 00:53
+  - [ ] 324. | Adding an Auth Form 1 | 13:11
+  - [ ] 325. | Adding Actions | 06:28
+  - [ ] 326. | Getting a Token from the Backend | 06:59
+  - [ ] 327. | Adding Sign-In | 05:30
+  - [ ] 328. | Storing the Token | 09:00
+  - [ ] 329. | Adding a Spinner | 06:03
+  - [ ] 330. | Logging Users Out | 06:50
+  - [ ] 331. | Accessing Protected Resources 1 | 11:17
+  - [ ] 332. | Updating the UI Depending on Auth State | 07:32
+  - [ ] 333. | Adding a Logout Link | 06:53
+  - [ ] 334. | Forwarding Unauthenticated Users | 08:18
+  - [ ] 335. | Redirecting the User to the Checkout Page 1 | 13:12
+  - [ ] 336. | Persistent Auth State with localStorage 1 | 14:36
+  - [ ] 337. | Fixing Connect + Routing Errors | 06:58
+  - [ ] 338. | Ensuring App Security | 02:50
+  - [ ] 339. | Guarding Routes | 05:34
+  - [ ] 340. | Displaying User Specific Orders | 08:16
+  - [ ] 341. | Wrap Up | 00:43
+  - [ ] 342. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 19: Improving our Burger Project 00/09 | 28min
+  - [ ] 343. | Module Introduction | 00:40
+  - [ ] 344. | Fixing the Redirect to the Frontpage | 05:48
+  - [ ] 345. | Using updateObject in the Entire App | 06:45
+  - [ ] 346. | Sharing the Validation Method | 02:16
+  - [ ] 347. | Using Environment Variables | 02:36
+  - [ ] 348. | Removing console.log()s | 03:47
+  - [ ] 349. | Adding Lazy Loading | 04:58
+  - [ ] 350. | Wrap Up | 00:50
+  - [ ] 351. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 20: Testing 00/12 | 49min
+  - [ ] 352. | Module Introduction | 01:12
+  - [ ] 353. | What is Testing? | 03:08
+  - [ ] 354. | Required Testing Tools | 02:26
+  - [ ] 355. | What To Test? | 02:50
+  - [ ] 356. | Writing our First Test 1 | 12:34
+  - [ ] 357. | Testing Components Continued | 04:05
+  - [ ] 358. | Jest and Enzyme Documentations | 06:28
+  - [ ] 359. | Testing Components Correctly | 02:28
+  - [ ] 360. | Testing Containers | 06:50
+  - [ ] 361. | How to Test Redux | 05:09
+  - [ ] 362. | Wrap Up | 01:27
+  - [ ] 363. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 21: Deploying the App to the Web 00/06 | 11min
+  - [ ] 364. | Module Introduction | 00:33
+  - [ ] 365. | Deployment Steps | 02:58
+  - [ ] 366. | Building the Project | 02:20
+  - [ ] 367. | Example: Deploying on Firebase | 04:06
+  - [ ] 368. | Wrap Up | 00:42
+  - [ ] 369. | Useful Resources & Links | 00:02
+  - [ ] 
+- [ ] Section 22: Bonus: Working with Webpack 00/16 | 54min
+  - [ ] 370. | Module Introduction | 01:24
+  - [ ] 371. | DON'T SKIP: Webpack Versions | 00:36
+  - [ ] 372. | Introducing Webpack | 01:14
+  - [ ] 373. | How Webpack works | 02:40
+  - [ ] 374. | Basic Workflow Requirements | 01:35
+  - [ ] 375. | Project & npm Setup | 03:47
+  - [ ] 376. | Creating a Basic Folder & File Structure | 03:12
+  - [ ] 377. | Creating the Basic React Application 1 | 10:55
+  - [ ] 378. | Installing Production Dependencies | 01:10
+  - [ ] 379. | Setting Up the Basic Webpack Config | 06:41
+  - [ ] 380. | Adding File Rules & Babel | 07:07
+  - [ ] 381. | Loading CSS Files | 05:01
+  - [ ] 382. | Loading Images & Injecting into HTML Page | 05:36
+  - [ ] 383. | Production Workflow & Wrap Up | 02:43
+  - [ ] 384. | Adding babel-polyfill | 00:23
+  - [ ] 385. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 23: Bonus: Next.js 00/10 | 35min
+  - [ ] 386. | Module Introduction | 01:12
+  - [ ] 387. | Understanding Server Side Rendering | 03:18
+  - [ ] 388. | Setting Up a Project | 06:02
+  - [ ] 389. | Understanding the Basics | 03:53
+  - [ ] 390. | Next.js & Components & Pages | 02:48
+  - [ ] 391. | Styling our App in Next.js | 02:47
+  - [ ] 392. | Handling (404) Errors | 02:01
+  - [ ] 393. | A Special Lifecycle Hook 1 | 09:33
+  - [ ] 394. | Deploying our App | 02:59
+  - [ ] 395. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 24: Bonus: Animations in React Apps 00/016 | 1hr 8min
+  - [ ] 396. | Module Introduction | 01:07
+  - [ ] 397. | Preparing the Demo Project | 06:12
+  - [ ] 398. | Using CSS Transitions | 04:34
+  - [ ] 399. | Using CSS Animations | 05:32
+  - [ ] 400. | CSS Transition & Animations Limitations | 04:04
+  - [ ] 401. | Using ReactTransitionGroup 1 | 12:19
+  - [ ] 402. | Using the Transition Component | 03:24
+  - [ ] 403. | Wrapping the Transition Component | 03:16
+  - [ ] 404. | Animation Timings | 03:14
+  - [ ] 405. | Transition Events | 02:33
+  - [ ] 406. | The CSSTransition Component | 05:23
+  - [ ] 407. | Customizing CSS Classnames | 02:30
+  - [ ] 408. | Animating Lists | 06:53
+  - [ ] 409. | Alternative Animation Packages | 04:29
+  - [ ] 410. | Wrap Up | 01:57
+  - [ ] 411. | Useful Resources & Links | 00:05
+  - [ ] 
+- [ ] Section 25: Bonus: A Brief Introduction to Redux Saga 00/13 | 1hr 16min
+  - [ ] 412. | Module Introduction | 01:29
+  - [ ] 413. | Installing Redux Saga | 02:40
+  - [ ] 414. | Creating our First Saga | 06:06
+  - [ ] 415. | Hooking the Saga Up (to the Store and Actions) | 04:42
+  - [ ] 416. | Moving Logic from the Action Creator to a Saga | 05:57
+  - [ ] 417. | Moving More Logic Into Sagas 1 | 10:02
+  - [ ] 418. | Handling Authentication with a Saga 1 | 11:07
+  - [ ] 419. | Handling Auto-Sign-In with a Saga | 05:53
+  - [ ] 420. | Moving the BurgerBuilder Side Effects into a Saga | 07:01
+  - [ ] 421. | Moving the Orders Side Effects into Sagas 1 | 12:34
+  - [ ] 422. | Why Sagas can be Helpful | 01:17
+  - [ ] 423. | Diving Deeper into Sagas | 06:55
+  - [ ] 424. | Useful Resources & Links | 00:06
+  - [ ] 
+- [ ] Section 26: React Hooks 00/28 | 3hr 3min
+  - [ ] 425. | Introduction | 00:40
+  - [ ] 426. | What are "React Hooks"? | 07:08
+  - [ ] 427. | The Starting Project | 04:57
+  - [ ] 428. | Getting Started with useState() | 09:20
+  - [ ] 429. | More on useState() & State Updating 1 | 11:54
+  - [ ] 430. | Array Destructuring | 02:34
+  - [ ] 431. | Multiple States | 03:47
+  - [ ] 432. | Rules of Hooks | 02:20
+  - [ ] 433. | Passing State Data Across Components | 07:56
+  - [ ] 434. | Sending Http Requests | 07:16
+  - [ ] 435. | useEffect() & Loading Data | 08:06
+  - [ ] 436. | Understanding useEffect() Dependencies | 02:21
+  - [ ] 437. | More on useEffect() 1 | 09:37
+  - [ ] 438. | What's useCallback()? | 05:28
+  - [ ] 439. | Working with Refs & useRef() | 05:21
+  - [ ] 440. | Cleaning Up with useEffect() | 03:21
+  - [ ] 441. | Deleting Ingredients | 02:28
+  - [ ] 442. | Loading Errors & State Batching | 08:48
+  - [ ] 443. | More on State Batching & State Updates | 00:35
+  - [ ] 444. | Understanding useReducer() 1 | 09:43
+  - [ ] 445. | Using useReducer() for the Http State 1 | 10:40
+  - [ ] 446. | Working with useContext() | 08:27
+  - [ ] 447. | Performance Optimizations with useMemo() 1 | 10:30
+  - [ ] 448. | Getting Started with Custom Hooks 1 | 13:45
+  - [ ] 449. | Sharing Data Between Custom Hooks & Components 1 | 14:58
+  - [ ] 450. | Using the Custom Hook | 08:11
+  - [ ] 451. | Wrap Up | 03:05
+  - [ ] 
+- [ ] Section 27: Using Hooks in the Burger Builder 00/15 | 1hr 5min
+  - [ ] 452. | Introduction | 01:08
+  - [ ] 453. | Converting <App> | 03:28
+  - [ ] 454. | Routing with React.lazy() | 03:35
+  - [ ] 455. | Converting the Layout Component | 02:39
+  - [ ] 456. | Converting withErrorHandler HOC | 05:26
+  - [ ] 457. | Adjusting the Order & Checkout Containers | 04:28
+  - [ ] 458. | Add Hooks to ContactData | 05:38
+  - [ ] 459. | Converting the BurgerBuilder Container | 04:25
+  - [ ] 460. | Adjusting Auth & Logout Components | 06:01
+  - [ ] 461. | Using React.memo() & More! | 04:30
+  - [ ] 462. | Adding a Custom Error Handling Hook | 05:40
+  - [ ] 463. | Setting the right useEffect() Dependencies | 04:58
+  - [ ] 464. | Working with useSelector() and useDispatch() 1 | 11:33
+  - [ ] 465. | Wrap Up | 01:03
+  - [ ] 466. | Useful Resources & Links | 00:01
+  - [ ] 
+- [ ] Section 28: Bonus: Replacing Redux with React Hooks 00/14 | 54min
+  - [ ] 467. | Module Introduction | 00:48
+  - [ ] 468. | Starting Project & Why You Would Replace Redux | 04:19
+  - [ ] 469. | Alternative: Using the Context API | 07:13
+  - [ ] 470. | Toggling Favorites with the Context API | 05:43
+  - [ ] 471. | Context API Summary (and why NOT to use it instead of Redux) | 02:30
+  - [ ] 472. | Getting Started with a Custom Hook as a Store | 08:11
+  - [ ] 473. | Finishing the Store Hook | 05:53
+  - [ ] 474. | Creating a Concrete Store | 04:11
+  - [ ] 475. | Using the Custom Store | 05:40
+  - [ ] 476. | Custom Hook Store Summary | 03:13
+  - [ ] 477. | Optimizing the Custom Hook Store | 04:04
+  - [ ] 478. | Bonus: Managing Multiple State Slices with the Custom Store Hook | 00:11
+  - [ ] 479. | Wrap Up | 02:00
+  - [ ] 480. | Useful Resources & Links | 00:05
+  - [ ] 
+- [ ] Section 29: Bonus: Building the Burger CSS 00/01 | 25min
+  - [ ] 481. | Building the Burger CSS Code 2 | 24:55
+  - [ ] 
+- [ ] Section 30: Next Steps and Course Roundup 00/10 | 22min
+  - [ ] 482. | Module Introduction | 01:00
+  - [ ] 483. | React Rocks! Where to find more Examples | 01:24
+  - [ ] 484. | More Inspiration: Real-World Projects Built with React | 01:23
+  - [ ] 485. | Static React Apps with Gatsby.js | 02:31
+  - [ ] 486. | Introducing React Native | 02:17
+  - [ ] 487. | Component Libraries (Example: Material UI) | 02:36
+  - [ ] 488. | Smaller Apps with Preact | 03:08
+  - [ ] 489. | Comparing React with Preact | 05:50
+  - [ ] 490. | Congratulations | 01:16
+  - [ ] 491. | Bonus: More Content! | 00:20

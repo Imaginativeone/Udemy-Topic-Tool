@@ -1,14 +1,17 @@
+Section 01: Getting Started 11/11 | 40min
 Introduction 01:49
 What is React? 02:56
 Join our Online Learning Community 00:21
 Real-World SPAs & React Web Apps 02:28
 Writing Our First React Code 15:07
-Why Should We Choose React 02:03
+Why Should We Choose React? 02:03
 React Alternatives 01:11
-Understanding Single Page Applications and Multi-Page Applications 03:38
+Understanding Single Page Applications and Multi Page Applications 03:38
 Course Outline 07:28
 How to Get the Most Out of This Course 02:29
 Useful Resources and Links 00:08
+
+Section 02: Refreshing Next Generation JavaScript (Optional) 11/13 | 44min
 Module Introduction 01:35
 Understanding "let" and "const" 03:05
 Arrow Functions 05:27
@@ -22,6 +25,8 @@ Refreshing Array Functions 02:45
 Wrap Up 00:52
 Next-Gen JavaScript - Summary 03:51
 JS Array Functions 00:20
+
+Section 03: Understanding the Base Features & Syntax 23/28 | 2hr 21min
 Module Introduction 00:38
 The Build Workflow 08:00
 Using Create React App 06:09
@@ -47,10 +52,11 @@ Passing Method References Between Components 07:05
 Adding Two Way Binding 06:51
 Adding Styling with Stylesheets 05:28
 Working with Inline Styles 04:15
-Time to Practice - The Base Syntax
-1 question
+Time to Practice - The Base Syntax 23:00
 [OPTIONAL] Assignment Solution 22:28
 Useful Resources & Links 00:02
+
+Section 04: Working with Lists and Conditionals 09/13 | 1hr 1min
 Module Introduction 01:03
 Rendering Content Conditionally 10:09
 Handling Dynamic Content "The JavaScript Way" 04:49
@@ -61,10 +67,11 @@ Updating State Immutably 02:39
 Lists & Keys 04:14
 Flexible Lists 07:34
 Wrap Up 01:55
-Time to Practice - Lists & Conditionals
-1 question
+Time to Practice - Lists & Conditionals 17:17
 [OPTIONAL] Assignment Solution 17:17
 Useful Resources & Links 00:01
+
+Section 05: Styling React Components & Elements 11/13 | 1hr 5min
 Module Introduction 01:19
 Outlining the Problem Set 01:58
 Setting Styles Dynamically 03:19
@@ -78,6 +85,8 @@ Working with CSS Modules 15:21
 CSS Modules & Media Queries 03:15
 More on CSS Modules 01:02
 Useful Resources & Links 00:03
+
+Section 06: Debugging React Apps 06/07 | 20min
 Module Introduction 00:55
 Understanding Error Messages 02:37
 Finding Logical Errors by using Dev Tools & Sourcemaps 04:17
@@ -85,6 +94,8 @@ Working with the React Developer Tools 03:06
 Using Error Boundaries (React 16+) 08:13
 Wrap Up 00:57
 Useful Resources & Links 00:01
+
+Section 07: Diving Deeper into Components & React Internals 32/33 | 2hr 54min
 Module Introduction 00:43
 A Better Project Structure 07:24
 Splitting an App Into Components 15:54
@@ -118,6 +129,8 @@ Using the Context API 10:03
 contextType & useContext() 05:33
 Wrap Up 01:21
 Useful Resources & Links 00:03
+
+Section 08: A Real App: The Burger Builder (Basic Version) 07/42 | 4hr
 About React Hooks 00:14
 Module Introduction 00:57
 Planning an App in React - Core Steps 02:32
@@ -160,6 +173,8 @@ Using Component Lifecycle Methods 01:48
 Changing the Folder Structure 04:57
 Wrap Up 01:49
 Useful Resources & Links 00:04
+
+Section 09: Reaching out to the Web (Http/Ajax) 00/18 | 56min
 Module Introduction 01:03
 Understanding Http Requests in React 01:35
 Understanding our Project and Introducing Axios 04:15
@@ -178,6 +193,8 @@ Setting a Default Global Configuration for Axios 03:10
 Creating and Using Axios Instances 05:03
 Wrap Up 00:47
 Useful Resources & Links 00:00
+
+Section 10: Burger Builder Project: Accessing a Server 00/10 | 57min
 Module Introduction 01:52
 Firebase & The Right Database 00:05
 Creating the Firebase Project 03:26
@@ -188,6 +205,8 @@ Handling Errors 12:04
 Retrieving Data from the Backend 11:22
 Removing Old Interceptors 08:24
 Useful Resources & Links 00:02
+
+Section 11: Multi-Page-Feeling in a Single-Page-App: Routing 00/34 | 2hr 3min
 Module Introduction 00:51
 Routing and SPAs 02:43
 Setting Up Links 04:22
@@ -219,10 +238,11 @@ Handling the 404 Case (Unknown Routes) 03:02
 Loading Routes Lazily 11:49
 Lazy Loading with React Suspense (16.6) 09:47
 Routing and Server Deployment 04:19
-Time to Practice - Routing
-1 question
+Time to Practice - Routing 04:00
 Wrap Up 00:49
 Useful Resources & Links 00:01
+
+Section 12: Adding Routing to our Burger Project 00/14 | 1hr 19min
 Module Introduction 01:35
 Building the Checkout Container 11:32
 Setting Up Routing & Routes 04:41
@@ -237,6 +257,8 @@ Fetching Orders 06:03
 Outputting the Orders 07:34
 Wrap Up 01:07
 Useful Resources & Links 00:02
+
+Section 13: Forms and Form Validation 00/17 | 1hr 12min
 Module Introduction 00:49
 Analyzing the App 01:49
 Creating a Custom Dynamic Input Component 11:30
@@ -254,6 +276,8 @@ Handling Overall Form Validity 07:35
 Working on an Error 02:09
 Fixing a Bug 01:26
 Useful Resources & Links 00:08
+
+Section 14: Redux 00/24 | 2hr 1min
 Module Introduction 01:00
 Understanding State 01:50
 The Complexity of Managing State 02:42
@@ -264,8 +288,7 @@ Adding Subscriptions 02:47
 Connecting React to Redux 03:39
 Connecting the Store to React 08:19
 Dispatching Actions from within the Component 05:53
-Time to Practice - Dispatching Actions
-1 question
+Time to Practice - Dispatching Actions 05:53
 Passing and Retrieving Data with Action 04:06
 Switch-Case in the Reducer 03:00
 Updating State Immutably 13:20
@@ -275,11 +298,12 @@ Outsourcing Action Types 05:19
 Combining Multiple Reducers 10:18
 Understanding State Types 04:50
 Time to Practice - Redux Basics
-1 question
 [OPTIONAL] Assignment Solution 14:23
 Combining Local UI State and Redux 07:39
 Wrap Up 01:42
 Useful Resources & Links 00:02
+
+Section 15: Adding Redux to our Project 0/10 | 50min
 Module Introduction 05:26
 Installing Redux and React Redux 04:08
 Basic Redux Setup 02:10
@@ -290,6 +314,8 @@ Redux & UI State 04:08
 Adjusting Checkout and Contact Data 09:10
 Wrap Up 02:38
 Useful Resources & Links 00:02
+
+Section 16: Redux Advanced 00/16 | 1hr 9min
 Module Introduction 00:28
 Adding Middleware 07:47
 Using the Redux Devtools 07:32
@@ -306,6 +332,8 @@ An Alternative Folder Structure 02:22
 Diving Much Deeper 02:07
 Wrap Up 01:00
 Useful Resources & Links 00:01
+
+Section 17: Redux Advanced: Burger Project 00/22 | 1hr 44min
 Module Introduction 01:12
 Installing the Redux Devtools 02:56
 Preparing the Folder Structure 03:06
@@ -328,6 +356,8 @@ Refactoring Reducers 08:11
 Refactoring Reducers Continued 07:55
 Wrap Up 00:57
 Useful Resources & Links 00:02
+
+Section 18: Adding Authentication to our Burger Project 00/22 | 2hr 25min
 Module Introduction 01:14
 Understanding Authentication in Single Page Applications 03:01
 Required App Adjustments 00:53
@@ -350,6 +380,8 @@ Guarding Routes 05:34
 Displaying User Specific Orders 08:16
 Wrap Up 00:43
 Useful Resources & Links 00:02
+
+Section 19: Improving our Burger Project 00/09 | 28min
 Module Introduction 00:40
 Fixing the Redirect to the Frontpage 05:48
 Using updateObject in the Entire App 06:45
@@ -359,6 +391,8 @@ Removing console.log()s 03:47
 Adding Lazy Loading 04:58
 Wrap Up 00:50
 Useful Resources & Links 00:02
+
+Section 20: Testing 00/12 | 49min
 Module Introduction 01:12
 What is Testing? 03:08
 Required Testing Tools 02:26
@@ -371,12 +405,16 @@ Testing Containers 06:50
 How to Test Redux 05:09
 Wrap Up 01:27
 Useful Resources & Links 00:01
+
+Section 21: Deploying the App to the Web 00/06 | 11min
 Module Introduction 00:33
 Deployment Steps 02:58
 Building the Project 02:20
 Example: Deploying on Firebase 04:06
 Wrap Up 00:42
 Useful Resources & Links 00:02
+
+Section 22: Bonus: Working with Webpack 00/16 | 54min
 Module Introduction 01:24
 DON'T SKIP: Webpack Versions 00:36
 Introducing Webpack 01:14
@@ -393,6 +431,8 @@ Loading Images & Injecting into HTML Page 05:36
 Production Workflow & Wrap Up 02:43
 Adding babel-polyfill 00:23
 Useful Resources & Links 00:01
+
+Section 23: Bonus: Next.js 00/10 | 35min
 Module Introduction 01:12
 Understanding Server Side Rendering 03:18
 Setting Up a Project 06:02
@@ -403,6 +443,8 @@ Handling (404) Errors 02:01
 A Special Lifecycle Hook 09:33
 Deploying our App 02:59
 Useful Resources & Links 00:01
+
+Section 24: Bonus: Animations in React Apps 00/016 | 1hr 8min
 Module Introduction 01:07
 Preparing the Demo Project 06:12
 Using CSS Transitions 04:34
@@ -419,6 +461,9 @@ Animating Lists 06:53
 Alternative Animation Packages 04:29
 Wrap Up 01:57
 Useful Resources & Links 00:05
+
+
+Section 25: Bonus: A Brief Introduction to Redux Saga 00/13 | 1hr 16min
 Module Introduction 01:29
 Installing Redux Saga 02:40
 Creating our First Saga 06:06
@@ -432,6 +477,8 @@ Moving the Orders Side Effects into Sagas 12:34
 Why Sagas can be Helpful 01:17
 Diving Deeper into Sagas 06:55
 Useful Resources & Links 00:06
+
+Section 26: React Hooks 00/28 | 3hr 3min
 Introduction 00:40
 What are "React Hooks"? 07:08
 The Starting Project 04:57
@@ -461,6 +508,8 @@ Getting Started with Custom Hooks 13:45
 Sharing Data Between Custom Hooks & Components 14:58
 Using the Custom Hook 08:11
 Wrap Up 03:05
+
+Section 27: Using Hooks in the Burger Builder 00/15 | 1hr 5min
 Introduction 01:08
 Converting <App> 03:28
 Routing with React.lazy() 03:35
@@ -476,6 +525,8 @@ Setting the right useEffect() Dependencies 04:58
 Working with useSelector() and useDispatch() 11:33
 Wrap Up 01:03
 Useful Resources & Links 00:01
+
+Section 28: Bonus: Replacing Redux with React Hooks 00/14 | 54min
 Module Introduction 00:48
 Starting Project & Why You Would Replace Redux 04:19
 Alternative: Using the Context API 07:13
@@ -490,7 +541,11 @@ Optimizing the Custom Hook Store 04:04
 Bonus: Managing Multiple State Slices with the Custom Store Hook 00:11
 Wrap Up 02:00
 Useful Resources & Links 00:05
+
+
+Section 29: Bonus: Building the Burger CSS 00/01 | 25min
 Building the Burger CSS Code 24:55
+
 Module Introduction 01:00
 React Rocks! Where to find more Examples 01:24
 More Inspiration: Real-World Projects Built with React 01:23

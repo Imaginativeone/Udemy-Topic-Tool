@@ -11,7 +11,7 @@ const listElement = document.querySelector('#fpt-list');
 function loadInfo() {
 
     const paidTopics = loadPaidTopics();
-    // console.log('paidTopics', paidTopics);
+    console.log('paidTopics', paidTopics);
 
     const freeTopics = loadFreeTopics();
     // console.log('freeTopics', freeTopics);
@@ -41,8 +41,12 @@ function presentTopics(formattedTopics) {
 }
 
 function meldTopics(paid, free) {
+
+    console.log('function meldTopics: paid', paid);
     
     let finalData = [];
+
+    finalData.push(paid[0].section);
 
     // List of arrays
     let p = paid.map((paidTopic, index) => {       
