@@ -45,7 +45,6 @@ function meldTopics(paid, free) {
     console.log('function meldTopics: paid', paid);
     
     let finalData = [];
-
     finalData.push(paid[0].section);
 
     // List of arrays
@@ -80,11 +79,13 @@ function meldTopics(paid, free) {
 
                     let freeText = ftTextMatch[1];
                     let freeTime = ftTextMatch[2];
+
+                    let markdownCheckbox = "- [ ] ";
                     
                     if (pTopic.indexOf(freeText) != -1) {
                         // console.log(`${ paidText } | ${ freeText } | ${ freeTime }`);
-                        console.log(`${ paidIndx } | ${ paidText } | ${ freeTime }`);
-                        finalData.push(`${ paidIndx } | ${ paidText } | ${ freeTime }`);
+                        console.log(`${ markdownCheckbox } ${ paidIndx } | ${ paidText } | ${ freeTime }`);
+                        finalData.push(`${ markdownCheckbox } ${ paidIndx } | ${ paidText } | ${ freeTime }`);
                     } else {
                         // console.log('PROBLEM: Inexact match - freeText', freeText);
                     }
